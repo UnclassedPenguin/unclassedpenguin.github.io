@@ -1,0 +1,30 @@
+---
+---
+
+@import "minima";
+
+.site-header, .site-footer {
+  background-color: #282828;
+  color: white;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.site-title, .site-title:visited {
+  color: white;
+}
+
+.site-nav .page-link {
+  color: white;
+}
+
+.page-content {
+  background-color: #383838;
+  color: white;
+}
+
+a:link, a:visited {color: grey;}
+
+a:hover {color:pink;}
+
+pre, code {background-color: grey;}
