@@ -12,7 +12,8 @@
 }
 
 .site-title, .site-title:visited {
-  color: white;
+  color: white !
+;
 }
 
 .site-nav .page-link {
@@ -61,4 +62,5 @@ table tr {
 
 @screen and (max-width: 600px)
 .site-nav .menu-icon > svg {fill:white;}
-.site-nav {background-color: #282828;}
+/*Old color was #282828*/
+.site-nav {background-color: #22272E;}
