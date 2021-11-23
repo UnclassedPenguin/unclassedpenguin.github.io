@@ -34,7 +34,11 @@ h1, h2, h3, h4, h5, h6 {
   color:white;
 }
 
-a:link, a:visited {color: grey;}
+/*Old color was grey*/
+a:link, a:visited {
+  color: #3473d9;
+  text-decoration: underline;
+}
 
 a:hover {color:pink;}
 
