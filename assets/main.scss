@@ -27,7 +27,10 @@ a:link, a:visited {color: grey;}
 
 a:hover {color:pink;}
 
-pre, code {background-color: grey;}
+pre, code {
+    background-color: #fff;
+    color: #404040;
+}
 
 @screen and (max-width: 600px)
 .site-nav .menu-icon > svg {fill:white;}
