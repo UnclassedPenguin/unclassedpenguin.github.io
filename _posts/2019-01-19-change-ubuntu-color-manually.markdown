@@ -18,10 +18,12 @@ First let’s find the values we will need for our new colour. I found a website
 Go there and enter the colour you want to use. The formats we are interested in are RGB and RGB Percent.
 
 For our colour #1A3A41 the RGB values are:
-RGB	26, 58, 65
-RGB Percent	10%, 23%, 25%
 
-The RGB value is used for ubuntu-logo.grub and the RGB Percent is used in the ubuntu-logo.script, however you have to enter it in as a decimal form of its self. So for us, its 0.10, 0.23, 0.25. The login page uses css so the plain hex color code will be used there.
+|---            | ---         |
+|RGB	        |26, 58, 65   |
+|RGB Percent	|10%, 23%, 25%|
+
+The RGB value is used for ubuntu-logo.grub and the RGB Percent is used in the ubuntu-logo.script, however you have to enter it in as a decimal form of its self. So for us, its 0.10, 0.23, 0.25. The login page uses css so the plain hex colour code will be used there.
 
 Lets begin now that we have everything we need. Open a terminal and we can get started. First we will edit the file to change the login screen colour. Always make sure when editing any system files to first create a backup. Change your directory, and copy the file to a new one of the same name, including a ‘.old’ on the end as a backup. 
 
@@ -66,7 +68,7 @@ Again, edit them using your favorite text editor, starting with the ‘ubuntu-lo
     Window.SetBackgroundBottomColor (0.16, 0.00, 0.12);  # an equally nice colour on the bottom
 {% endhighlight %}
 
-We will need to edit the values in parentheses following both the Window.SetBackground colors. Here we will use the RGB Percent values we found earlier.
+We will need to edit the values in parentheses following both the Window.SetBackground colours. Here we will use the RGB Percent values we found earlier.
 
 Change it to look something like this:
 
