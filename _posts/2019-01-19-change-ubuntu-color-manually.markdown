@@ -25,7 +25,7 @@ The RGB value is used for ubuntu-logo.grub and the RGB Percent is used in the ub
 
 Lets begin now that we have everything we need. Open a terminal and we can get started. First we will edit the file to change the login screen colour. Always make sure when editing any system files to first create a backup. Change your directory, and copy the file to a new one of the same name, including a ‘.old’ on the end as a backup. 
 
-{% hightlight shell %}
+{% highlight shell %}
 1. $ cd /usr/share/gnome-shell/theme/ubuntu.css
 2. $ sudo cp ubuntu.css ubuntu.css.old
 {% endhighlight %}
