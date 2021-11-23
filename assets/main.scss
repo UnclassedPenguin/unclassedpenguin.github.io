@@ -32,6 +32,11 @@ pre, code {
     color: #404040;
 }
 
+table {
+    background-color: #282828;
+    color: white;
+}
+
 @screen and (max-width: 600px)
 .site-nav .menu-icon > svg {fill:white;}
 .site-nav {background-color: #282828;}
