@@ -16,12 +16,14 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-              {%- for path in page_paths -%}
-                {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.title -%}
-                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                {%- endif -%}
-              {%- endfor -%}
+
+            <li><a href="/about/">About</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+            
+            
+            
+            
           </ul>
         </div>
       </div>
