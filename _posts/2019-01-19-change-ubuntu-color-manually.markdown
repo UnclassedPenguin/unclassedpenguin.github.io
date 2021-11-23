@@ -19,9 +19,8 @@ Go there and enter the colour you want to use. The formats we are interested in 
 
 For our colour #1A3A41 the RGB values are:
 
-|---            | ---         |
-|RGB	        |26, 58, 65   |
-|RGB Percent	|10%, 23%, 25%|
+RGB	        26, 58, 65   
+RGB Percent	10%, 23%, 25%
 
 The RGB value is used for ubuntu-logo.grub and the RGB Percent is used in the ubuntu-logo.script, however you have to enter it in as a decimal form of its self. So for us, its 0.10, 0.23, 0.25. The login page uses css so the plain hex colour code will be used there.
 
