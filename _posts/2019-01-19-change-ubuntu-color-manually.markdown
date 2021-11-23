@@ -25,14 +25,14 @@ The RGB value is used for ubuntu-logo.grub and the RGB Percent is used in the ub
 
 Lets begin now that we have everything we need. Open a terminal and we can get started. First we will edit the file to change the login screen colour. Always make sure when editing any system files to first create a backup. Change your directory, and copy the file to a new one of the same name, including a ‘.old’ on the end as a backup. 
 
-{% hightlight %}
+{% hightlight shell %}
 1. $ cd /usr/share/gnome-shell/theme/ubuntu.css
 2. $ sudo cp ubuntu.css ubuntu.css.old
 {% endhighlight %}
 
 Now use your favorite text editor (with root privileges) to open the file ‘ubuntu.css‘(/usr/share/gnome-shell/theme/ubuntu.css) and find the following lines. It is helpful to search for the term “lockDialog” to find it easily.
 
-{% highlight %}
+{% highlight shell %}
 #lockDialogGroup {
   background: #2c001e url(resource:///org/gnome/shell/theme/noise-texture.png);
   background-repeat: repeat; }
@@ -40,7 +40,7 @@ Now use your favorite text editor (with root privileges) to open the file ‘ubu
 
 Now we are going to edit this using your own hex colour and it should end up looking something like this:
 
-{% highlight %}
+{% highlight shell %}
 #lockDialogGroup {
   background: #1a3a41;
   background-repeat: repeat; }
@@ -48,7 +48,7 @@ Now we are going to edit this using your own hex colour and it should end up loo
 
 Moving on, we will create backups for both the ‘ubuntu-logo.grub’ file (this file is responsible for changing the colour during the grub boot screen) and the ‘ubuntu-logo.script‘ file (this file is responsible for changing the colour during the Ubuntu splash screen that follows the grub boot screen). 
 
-{% highlight %}
+{% highlight shell %}
 1. $ cd /usr/share/plymouth/themes/ubuntu-logo
 2. $ sudo cp ubuntu-logo.grub ubuntu-logo.grub.old
 3. $ sudo cp ubuntu-logo.script ubuntu-logo.script.old
@@ -56,7 +56,7 @@ Moving on, we will create backups for both the ‘ubuntu-logo.grub’ file (this
 
 Again, edit them using your favorite text editor, starting with the ‘ubuntu-logo.script’  file. Look for these lines:
 
-{% highlight %}
+{% highlight shell%}
     # Previous background colour
     # #300a24 --> 0.19, 0.04, 0.14
     # New background colour
@@ -70,7 +70,7 @@ We will need to edit the values in parentheses following both the Window.SetBack
 
 Change it to look something like this:
 
-{% highlight %}
+{% highlight shell%}
     # Previous background colour
     # #300a24 --> 0.19, 0.04, 0.14
     # New background colour
@@ -85,7 +85,7 @@ Change it to look something like this:
 
 Now we will edit the ‘ubuntu-logo.grub’ file. This is a small file, and we just need to change the numbers in the first line. Use the RGB values from earlier, and add an extra zero (I am not sure if this extra zero is necessary, feel free to do some experimenting and let me know what you find out). It will end up looking something like this, with your own values of course:
 
-{% highlight %}
+{% highlight shell%}
     if background_color 26,58,65,0; then
       clear
     fi
@@ -93,7 +93,7 @@ Now we will edit the ‘ubuntu-logo.grub’ file. This is a small file, and we j
 
 Now we need to execute a couple commands to let the computer know we changed these files.
 
-{% highlight %}
+{% highlight shell%}
 1. $ sudo update-grub
 2. $ sudo update-initramfs -u
 {% endhighlight %}
