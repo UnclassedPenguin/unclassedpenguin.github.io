@@ -5,7 +5,7 @@ date: 2019-02-02
 categories: code Ubuntu
 ---
 
-In my [previous article]() I went over how to manually change your boot colours in an Ubuntu 18.04 OS. After going through all of it a couple times, I decided that it would be easier to change in the future if I wrote a program that did it automatically, with the only input being whatever colour you want your boot screen to be, from grub to login.
+In my [previous article](https://unclassedpenguin.github.io/code/ubuntu/2019/01/19/change-ubuntu-color-manually.html) I went over how to manually change your boot colours in an Ubuntu 18.04 OS. After going through all of it a couple times, I decided that it would be easier to change in the future if I wrote a program that did it automatically, with the only input being whatever colour you want your boot screen to be, from grub to login.
 
 I can now provide you with this script to use on your machine to easily change these colours.
 
