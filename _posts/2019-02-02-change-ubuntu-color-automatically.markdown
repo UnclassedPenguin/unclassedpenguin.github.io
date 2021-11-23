@@ -13,7 +13,7 @@ To use it, [go here](https://raw.githubusercontent.com/UnclassedPenguin/scripts/
 
 Alternatively, use this command:
 
-{% highlight %}
+{% highlight shell%}
 $ wget https://raw.githubusercontent.com/UnclassedPenguin/scripts/master/UbuntuSplashColor.py
 {% endhighlight %}
 
@@ -21,7 +21,7 @@ $ wget https://raw.githubusercontent.com/UnclassedPenguin/scripts/master/UbuntuS
 
 After this you will need to execute the script using sudo and python3. 
 
-{% highlight %}
+{% highlight shell%}
 $ sudo python3 UbuntuSplashColor.py
 {% endhighlight %}
 
