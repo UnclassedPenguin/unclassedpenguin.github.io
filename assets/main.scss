@@ -3,8 +3,9 @@
 
 @import "minima";
 
+/*Old background color was #282828*/
 .site-header, .site-footer {
-  background-color: #282828;
+  background-color: #22272E;
   color: white;
   border-top: none !important;
   border-bottom: none !important;
@@ -18,9 +19,19 @@
   color: white;
 }
 
+
+/*Old color was #383838*/
 .page-content {
-  background-color: #383838;
+  background-color: #2d333b;
   color: white;
+}
+
+.post-link {
+  color:white !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:white;
 }
 
 a:link, a:visited {color: grey;}
