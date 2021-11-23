@@ -41,6 +41,10 @@ table tr {
     background-color: #282828 !important;
 }
 
+.rss-subscribe {
+    display: none;
+}
+
 @screen and (max-width: 600px)
 .site-nav .menu-icon > svg {fill:white;}
 .site-nav {background-color: #282828;}
