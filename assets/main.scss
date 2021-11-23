@@ -37,8 +37,8 @@ table {
     color: white;
 }
 
-table tr:nth-child(2n) {
-    background-color: #282828;
+table tr {
+    background-color: #282828 !important;
 }
 
 @screen and (max-width: 600px)
