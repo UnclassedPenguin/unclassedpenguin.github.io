@@ -48,7 +48,10 @@ ul.tags li a {
 
 .navbar-light .navbar-brand {color:white;}
 
+a.text-dark:hover {color:pink !important}
+
 .card-body {background-color: #1E2228 !important}
 
 .text-dark, .listrecent h4.card-text {color:white !important;}
 
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {color: white !important;}
