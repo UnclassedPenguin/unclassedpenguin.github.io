@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Change Colour for Ubuntu 18.04 Splash Screen, Login and Grub [Automatically]"
-author: Tyler
+author: tyler
 date: 2019-02-02
 categories: code Ubuntu
 ---
