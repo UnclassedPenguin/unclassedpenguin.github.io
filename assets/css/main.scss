@@ -14,6 +14,7 @@
     "starsnonscss"
 ;
 
+.alertbar {display:none !important}
 
 .mainheading h1.sitetitle {
     display: none;
@@ -26,7 +27,7 @@
 
 .article-post p {color:white;}
 
-.navbar-light .navbar-nav .nav-link:hover {color:pink;}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {color:pink;}
 
 .text-lg-right, .text-lg-left {color:#688AB3}
 
@@ -44,3 +45,6 @@ ul.tags li a {
 }
 
 .navbar-light .navbar-brand {color:white;}
+
+.text-dark, .listrecent h4.card-text {color:white !important;}
+
