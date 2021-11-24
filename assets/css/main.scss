@@ -77,3 +77,20 @@ a.text-dark:hover {color:pink !important}
 
 .text-lg-right {color:#3473d9;}
 .footer {background-color: #22272e !important; margin-bottom: 0px !important;}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -75px;
+}
+.footer,
+.push {
+  height: 75px;
+}
