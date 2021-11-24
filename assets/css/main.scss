@@ -13,3 +13,25 @@
 	"syntax",
     "starsnonscss"
 ;
+
+
+.mainheading h1.sitetitle {
+    display: none;
+}
+
+.site-content {
+    background-color: #2d333b;
+    color:white;
+}
+
+.article-post p {color:white;}
+
+.mediumnavigation {
+    background: rgb(34, 39, 46) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-brand {color:white;}
