@@ -31,7 +31,9 @@
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {color:pink;}
 
-.text-lg-right, .text-lg-left {color:#688AB3}
+a, .d-block, .text-lg-left {color:#688AB3}
+
+a:hover {color:#CDD3D9}
 
 ul.tags li a {
   color: white;
