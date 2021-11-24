@@ -40,11 +40,11 @@ font-weight: 400 !important;
 
 .navbar-toggler {background-color:gray !important}
 
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {color:pink;}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover, .navbar-brand:active {color:pink;}
 
-a, .d-block, .text-lg-left {color:#688AB3}
+a, .d-block, .text-lg-left {color:#3473d9}
 
-a:hover {color:#CDD3D9}
+a:hover {color:#688AB3}
 
 ul.tags li a {
   color: white;
