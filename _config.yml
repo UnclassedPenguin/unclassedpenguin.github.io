@@ -10,6 +10,7 @@ disqus: ''
 mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
+baseurl: 'https://unclassedpenguin.github.io'
 
 # Authors
 authors:
