@@ -31,7 +31,8 @@ twitter_username: jekyllrb
 github_username:  UnclassedPenguin
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: wowthemesnet/mediumish-theme-jekyll 
 plugins:
   - jekyll-feed
 
