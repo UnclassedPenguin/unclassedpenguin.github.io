@@ -60,7 +60,7 @@ font-weight: 400 !important;
 	color:white;
 }
 
-.article-post p, .link-dark, .post-top-meta .author-description {color:white;}
+.article-post p, .link-dark, .post-top-meta .author-description {color:white !important;}
 
 code {
 	font-size:100% !important;
@@ -76,7 +76,7 @@ span.post-date, span.post-name a {color: white;}
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover, .navbar-brand:active {color:pink;}
 
 //a, .d-block, .text-lg-left {color:#3473d9;}
-a, .d-block, .text-lg-left {color:#32f43e;}
+a, .d-block, .text-lg-left, .share p {color:#32f43e !important;}
 
 a:hover {color:#688AB3;}
 
@@ -89,8 +89,10 @@ ul.tags li a {
     background: rgb(34, 39, 46) !important;
 }
 
+.mediumnavigation .navbar-brand img {color:white !important}
+
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: white !important;
 }
 
 .navbar-light .navbar-brand {color:white;}
