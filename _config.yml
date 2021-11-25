@@ -11,6 +11,7 @@ mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 #baseurl: 'https://unclassedpenguin.github.io'
+url: 'https://blog.unclassed.ca'
 
 # Authors
 authors:
