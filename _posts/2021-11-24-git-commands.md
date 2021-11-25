@@ -20,6 +20,7 @@ categories: [Github, Cheat Sheet]
 	'git remote add upstream URL_of_project`
 > i.e. `git remote add upstream https://github.com/firstcontributions/first-contributions.git`
 
+4a. Tip
 > `git remove -v` shows your remote repositories
 
 5. Pull from upstream master to sync your local 
