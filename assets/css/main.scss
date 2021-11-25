@@ -185,6 +185,11 @@ a,
   margin-bottom: 30px;
 }
 
+.text-lg-left, 
+.text-lg-right {
+  color: #3473d9 !important;
+}
+
 // -------- endBody
 
 
@@ -202,10 +207,12 @@ a,
 }
 
 .footer .text-lg-right, 
-.footer .text-lg-left, 
-.text-lg-left, 
-.text-lg-right {
-  color: #3473d9 !important;
+.footer .text-lg-left {
+  color: white !important;
+}  
+
+.footer a {
+  color: white !important;
 }
 
 // -------- endFooter
