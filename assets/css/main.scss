@@ -29,7 +29,8 @@ li {color:white !important;}
 //Search
 .modal-content {background-color: #22272e;}
 
-.lunrsearchresult .title, small, .close {color: white;}
+.modal-title, small, .close {color: white !important;}
+.lunrsearchresult .title {color: #32f43e !important;}
 //EndSearch
 
 .site-content {
