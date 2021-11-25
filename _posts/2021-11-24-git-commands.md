@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Github Commands Cheat Sheet"
+title: "Git Commands Cheat Sheet"
 author: tyler
 image:
 categories: [Github, Cheat Sheet]
