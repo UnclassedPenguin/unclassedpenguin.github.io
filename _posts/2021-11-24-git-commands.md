@@ -4,7 +4,6 @@ title: "Github Commands Cheat Sheet"
 author: tyler
 image:
 categories: [Github, Cheat Sheet]
-featured: true
 ---
 
 ### Contributing to a Project
