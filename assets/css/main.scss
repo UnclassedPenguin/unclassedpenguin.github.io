@@ -16,6 +16,7 @@
     "starsnonscss"
 ;
 
+// -----------------
 // -------- Elements
 
 li {
@@ -45,6 +46,7 @@ ul.tags li a {
 }
 
 // -------- endElements
+// --------------------
 
 
 .layout-page {
@@ -56,6 +58,7 @@ ul.tags li a {
 }
 
 
+// ---------------
 // -------- Navbar
 
 .navbar-toggler {
@@ -88,8 +91,10 @@ ul.tags li a {
 }
 
 // -------- endNavbar
+// ------------------
 
 
+// ---------------
 // -------- Search
 
 .modal-content {
@@ -107,15 +112,19 @@ small,
 }
 
 // -------- endSearch
+// ------------------
 
 
+// ---------------
 // -------- Header
 
 
 
 // -------- endHeader
+// ------------------
 
 
+// -------------
 // -------- Body
 
 .mainheading h1.sitetitle {
@@ -185,12 +194,17 @@ a,
   margin-bottom: 30px;
 }
 
+.PageNavigation a:hover {
+  color: #9934D8 !important;
+}
+
 .text-lg-left, 
 .text-lg-right {
   color: #3473d9 !important;
 }
 
 // -------- endBody
+// ----------------
 
 
 .jumbotron.fortags {
@@ -198,6 +212,7 @@ a,
 }
 
 
+// ---------------
 // -------- Footer
 
 .footer {
@@ -216,5 +231,5 @@ a,
 }
 
 // -------- endFooter
-
+// ------------------
 
