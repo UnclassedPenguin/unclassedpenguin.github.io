@@ -17,7 +17,7 @@ categories: [Github, Cheat Sheet]
 3. cd into new directory
 
 4. Add url of the original project as the upstream repository  
-	'git remote add upstream URL_of_project`  
+	`git remote add upstream URL_of_project`  
 > i.e. `git remote add upstream https://github.com/firstcontributions/first-contributions.git`  
 
 > `git remote -v` shows your remote repositories
