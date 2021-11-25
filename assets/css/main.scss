@@ -16,8 +16,10 @@
     "starsnonscss"
 ;
 
+// -------- Elements
+
 li {
-  color:white !important;
+  color: white !important;
 }
 
 pre {
@@ -25,45 +27,49 @@ pre {
 }
 
 code {
-  font-size:100% !important;
+  font-size: 100% !important;
   color: #32f43e !important;
 }
 
 a.text-dark:hover {
-  color:pink !important;
+  color: pink !important;
 }
 
-a:hover {color:#688AB3;}
+a:hover {
+  color: #688AB3;
+}
 
 ul.tags li a {
   color: white;
   background-color: #222;
 }
 
+// -------- endElements
+
+
 .layout-page {
   background-color: #22272e !important;
 }
 
 .alertbar {
-  display:none !important
+  display: none !important
 }
-
 
 
 // -------- Navbar
 
 .navbar-toggler {
-  background-color:gray !important;
+  background-color: gray !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-brand:hover,
 .navbar-brand:active {
-  color:pink;
+  color: pink;
 }
 
 .mediumnavigation .navbar-brand img {
-  color:white !important;
+  color: white !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -71,7 +77,7 @@ ul.tags li a {
 }
 
 .navbar-light .navbar-brand {
-color:white;
+  color: white;
 }
 
 .navbar-light .navbar-nav .active > .nav-link, 
@@ -113,12 +119,12 @@ small,
 // -------- Body
 
 .mainheading h1.sitetitle {
-    display: none;
+  display: none;
 }
 
 .site-content {
-    background-color: #2d333b;
-    color:white;
+  background-color: #2d333b;
+  color: white;
 }
 
 .article-post {
@@ -134,13 +140,13 @@ small,
 .article-post h4,
 .article-post h5,
 .article-post h6 {
-  color:white;
+  color: white;
 }
 
 .article-post p, 
 .link-dark, 
 .post-top-meta .author-description {
-  color:white !important;
+  color: white !important;
 }
 
 .bg-white {
@@ -154,7 +160,7 @@ span.post-date, span.post-name a {
 a, 
 .d-block, 
 .share p {
-  color:#3473D8 !important;
+  color: #3473D8 !important;
 }
 
 .mediumnavigation {
