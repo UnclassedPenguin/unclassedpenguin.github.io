@@ -176,6 +176,15 @@ a,
   color: white !important;
 }
 
+//Hide disqus while not using it
+#comments {
+  display: none;
+}
+
+.PageNavigation {
+  margin-bottom: 30px;
+}
+
 // -------- endBody
 
 
