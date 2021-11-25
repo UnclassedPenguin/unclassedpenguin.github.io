@@ -16,67 +16,22 @@
     "starsnonscss"
 ;
 
-li {color:white !important;}
-
-.layout-page {background-color: #22272e !important;}
-
-.alertbar {display:none !important}
-
-.mainheading h1.sitetitle {
-    display: none;
+li {
+  color:white !important;
 }
 
-//Search
-.modal-content {background-color: #22272e;}
-
-.modal-title, small, .close {color: white !important;}
-
-.lunrsearchresult .title {color: #32f43e !important;}
-
-//EndSearch
-
-pre {background-color: #2e3944 !important;}
-
-.site-content {
-    background-color: #2d333b;
-    color:white;
+pre {
+  background-color: #2e3944 !important;
 }
-
-.article-post {
-
-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-font-size: 0.95rem !important;
-line-height: 1.6 !important;
-font-weight: 400 !important;
-
-}
-
-.article-post h1,
-.article-post h2,
-.article-post h3,
-.article-post h4,
-.article-post h5,
-.article-post h6 {
-	color:white;
-}
-
-.article-post p, .link-dark, .post-top-meta .author-description {color:white !important;}
 
 code {
-	font-size:100% !important;
-	color: #32f43e !important;
+  font-size:100% !important;
+  color: #32f43e !important;
 }
 
-.bg-white {background-color: #1e2228 !important;}
-span.post-date, span.post-name a {color: white;}
-
-
-.navbar-toggler {background-color:gray !important;}
-
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover, .navbar-brand:active {color:pink;}
-
-//a, .d-block, .text-lg-left {color:#3473d9;}
-a, .d-block, .share p {color:#3473D8 !important;}
+a.text-dark:hover {
+  color:pink !important;
+}
 
 a:hover {color:#688AB3;}
 
@@ -85,27 +40,159 @@ ul.tags li a {
   background-color: #222;
 }
 
+.layout-page {
+  background-color: #22272e !important;
+}
+
+.alertbar {
+  display:none !important
+}
+
+
+
+// -------- Navbar
+
+.navbar-toggler {
+  background-color:gray !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-brand:hover,
+.navbar-brand:active {
+  color:pink;
+}
+
+.mediumnavigation .navbar-brand img {
+  color:white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-light .navbar-brand {
+color:white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white !important;
+}
+
+// -------- endNavbar
+
+
+// -------- Search
+
+.modal-content {
+  background-color: #22272e;
+}
+
+.modal-title, 
+small, 
+.close {
+  color: white !important;
+}
+
+.lunrsearchresult .title {
+  color: #32f43e !important;
+}
+
+// -------- endSearch
+
+
+// -------- Header
+
+
+
+// -------- endHeader
+
+
+// -------- Body
+
+.mainheading h1.sitetitle {
+    display: none;
+}
+
+.site-content {
+    background-color: #2d333b;
+    color:white;
+}
+
+.article-post {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+  font-weight: 400 !important;
+}
+
+.article-post h1,
+.article-post h2,
+.article-post h3,
+.article-post h4,
+.article-post h5,
+.article-post h6 {
+  color:white;
+}
+
+.article-post p, 
+.link-dark, 
+.post-top-meta .author-description {
+  color:white !important;
+}
+
+.bg-white {
+  background-color: #1e2228 !important;
+}
+
+span.post-date, span.post-name a {
+  color: white;
+}
+
+a, 
+.d-block, 
+.share p {
+  color:#3473D8 !important;
+}
+
 .mediumnavigation {
     background: rgb(34, 39, 46) !important;
 }
 
-.mediumnavigation .navbar-brand img {color:white !important}
-
-.navbar-light .navbar-nav .nav-link {
-    color: white !important;
+.card-body {
+  background-color: #1E2228 !important;
 }
 
-.navbar-light .navbar-brand {color:white;}
+.text-dark, 
+.listrecent h4.card-text {
+  color: white !important;
+}
 
-a.text-dark:hover {color:pink !important;}
+// -------- endBody
 
-.card-body {background-color: #1E2228 !important;}
 
-.text-dark, .listrecent h4.card-text {color:white !important;}
+.jumbotron.fortags {
+  display: none !important;
+}
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {color: white !important;}
 
-.jumbotron.fortags {display:none !important;}
+// -------- Footer
 
-.footer {margin-top: 0px !important; background-color: #22272e !important; margin-bottom: 0px !important;}
-.footer .text-lg-right, .footer .text-lg-left, .text-lg-left, .text-lg-right {color: #3473d9 !important;}
+.footer {
+  margin-top: 0px !important; 
+  background-color: #22272e !important; 
+  margin-bottom: 0px !important;
+}
+
+.footer .text-lg-right, 
+.footer .text-lg-left, 
+.text-lg-left, 
+.text-lg-right {
+  color: #3473d9 !important;
+}
+
+// -------- endFooter
+
+
