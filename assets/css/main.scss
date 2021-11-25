@@ -16,7 +16,7 @@
     "starsnonscss"
 ;
 
-li {color:white;}
+li {color:white !important;}
 
 .layout-page {background-color: #22272e !important;}
 
@@ -52,21 +52,21 @@ font-weight: 400 !important;
 .article-post p, .link-dark, .post-top-meta .author-description {color:white;}
 
 .code {
-	font-size:100% !important
-	color: #32f43e;
+	font-size:100% !important;
+	color: #32f43e !important;
 }
 
 .bg-white {background-color: #1e2228 !important;}
 span.post-date, span.post-name a {color: white;}
 
 
-.navbar-toggler {background-color:gray !important}
+.navbar-toggler {background-color:gray !important;}
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover, .navbar-brand:active {color:pink;}
 
-a, .d-block, .text-lg-left {color:#3473d9}
+a, .d-block, .text-lg-left {color:#3473d9;}
 
-a:hover {color:#688AB3}
+a:hover {color:#688AB3;}
 
 ul.tags li a {
   color: white;
@@ -83,9 +83,9 @@ ul.tags li a {
 
 .navbar-light .navbar-brand {color:white;}
 
-a.text-dark:hover {color:pink !important}
+a.text-dark:hover {color:pink !important;}
 
-.card-body {background-color: #1E2228 !important}
+.card-body {background-color: #1E2228 !important;}
 
 .text-dark, .listrecent h4.card-text {color:white !important;}
 
