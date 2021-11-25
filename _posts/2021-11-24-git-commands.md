@@ -35,7 +35,7 @@ categories: [Github, Cheat Sheet]
 	`$ git add -A`
 
 - Commit changes, be descriptive. Use current tense, not past. (Add, not added)  
-	`$ git commit -m 'describe what you did'
+	`$ git commit -m 'describe what you did'`
 
 - Push to your fork  
 	`$ git push origin NEWBRANCH`
