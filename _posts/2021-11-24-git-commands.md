@@ -4,9 +4,10 @@ title: "Github Commands Cheat Sheet"
 author: tyler
 image:
 categories: [Github, Cheat Sheet]
+featured: true
 ---
 
-# Contributing to a Project
+### Contributing to a Project
 
 1. Fork the repository you want to contribute to
 
