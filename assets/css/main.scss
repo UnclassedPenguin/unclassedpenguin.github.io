@@ -30,8 +30,12 @@ li {color:white !important;}
 .modal-content {background-color: #22272e;}
 
 .modal-title, small, .close {color: white !important;}
+
 .lunrsearchresult .title {color: #32f43e !important;}
+
 //EndSearch
+
+pre {background-color: #2e3944 !important;}
 
 .site-content {
     background-color: #2d333b;
@@ -71,7 +75,8 @@ span.post-date, span.post-name a {color: white;}
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover, .navbar-brand:active {color:pink;}
 
-a, .d-block, .text-lg-left {color:#3473d9;}
+//a, .d-block, .text-lg-left {color:#3473d9;}
+a, .d-block, .text-lg-left {color:#32f43e;}
 
 a:hover {color:#688AB3;}
 
