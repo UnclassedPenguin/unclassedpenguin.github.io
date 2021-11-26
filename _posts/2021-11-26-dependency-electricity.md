@@ -26,4 +26,4 @@ Water of course is another issue. For ourselves, as well as for all of our anima
 
 Now of course this exact case isn't an issue to those who live in town and aren't worried about watering large animals, but it still raises the issue of what you would do if you didn't have access to readily available water. 
 
-We rely on electricity. We also tend to take it for granted. Electricity does so much of the hard work for us. Pumping water, heating food, not to mention the entertainment and basic life conveniences it grants us as well. Lets just hope we never have to deal with a situation where we don't have it on a large scale.   
+We rely on electricity. We also tend to take it for granted. Electricity does so much of the hard work for us. Pumping water, heating food, not to mention the entertainment and basic life conveniences it grants us as well. Lets just hope we never have to deal with a situation where we don't have it for an extended period of time.   
