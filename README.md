@@ -1,2 +1,2 @@
 # Unclassed Blog
-Testing out a [blog](https://unclassedpenguin.github.io).
+Testing out a [blog](https://blog.unclassed.ca).
