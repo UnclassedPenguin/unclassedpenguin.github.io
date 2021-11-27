@@ -53,9 +53,37 @@ ul.tags li a {
   background-color: #22272e !important;
 }
 
-.alertbar {
-  display: none !important
+
+// -----------------------
+// -------- HiddenElements
+
+//Ugly font site title on top of page
+.mainheading h1.sitetitle {
+  display: none;
 }
+
+//Author gravatar image thing
+.post-top-meta .author-thumb {
+  display: none;
+}
+
+//Hide disqus while not using it
+#comments {
+  display: none;
+}
+
+//email subscription thing
+.alertbar {
+  display: none !important;
+}
+
+//wierd jumbotron thing at bottom of page
+.jumbotron.fortags {
+  display: none !important;
+}
+
+// -------- endHiddenElements
+// --------------------------
 
 
 // ---------------
@@ -128,10 +156,6 @@ small,
 // -------------
 // -------- Body
 
-.mainheading h1.sitetitle {
-  display: none;
-}
-
 .site-content {
   background-color: #2d333b;
   color: white;
@@ -192,11 +216,6 @@ a,
   color: white !important;
 }
 
-//Hide disqus while not using it
-#comments {
-  display: none;
-}
-
 .PageNavigation {
   margin-bottom: 30px;
 }
@@ -216,11 +235,6 @@ a,
 
 // -------- endBody
 // ----------------
-
-
-.jumbotron.fortags {
-  display: none !important;
-}
 
 
 // ---------------
@@ -243,4 +257,3 @@ a,
 
 // -------- endFooter
 // ------------------
-
