@@ -2,7 +2,7 @@
 name: "Unclassed Blog"
 title: ""
 description: "Tylers blog of random things"
-logo: 'assets/images/favicon.png'
+logo: ''
 favicon: 'assets/images/favicon.png'
 baseurl: '' 
 google_analytics: ''
