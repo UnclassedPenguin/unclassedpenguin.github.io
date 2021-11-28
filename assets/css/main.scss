@@ -208,12 +208,23 @@ a,
 .share p {
   color: #B364F7 !important;
 }
+
+a,
+.d-block,
+.share p {
+  color: #BCC0F7 !important;
+}
+ 
 */
 
 a, 
-.d-block,
 .share p {
-  color: #BCC0F7 ! important;
+  color: #BCC0F7 !important;
+}
+
+.prev .d-block .col-md-6,
+.next .d-block .col-md-6 {
+  color: white !important;
 }
 
 .mediumnavigation {
