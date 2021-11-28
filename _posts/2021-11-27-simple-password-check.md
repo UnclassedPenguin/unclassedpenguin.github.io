@@ -14,7 +14,7 @@ Checking your email is of course one thing, but what about passwords? There is a
 - We need to hash your password to SHA-1 to check it against the database (replace 'password' with your own password)  
 
 {% highlight shell %}
-$ echo -n 'password' | sha1sum 
+$ echo -n 'password' | sha1sum
 {% endhighlight %}
 
 This will return a string like this:  
@@ -36,7 +36,8 @@ $ grep -i "1e4c9b93f3f0682250b6cf8331b7ee68fd8" pass.txt
 {% endhighlight %}
 
 If this returns with a line like this:  
-{% highlight shell %}  
+
+{% highlight shell %}
 1E4C9B93F3F0682250B6CF8331B7EE68FD8:3861493
 {% endhighlight %}
  
