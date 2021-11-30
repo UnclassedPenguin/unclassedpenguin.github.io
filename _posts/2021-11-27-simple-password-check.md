@@ -17,7 +17,7 @@ Checking your email is of course one thing, but what about passwords? There is a
 $ echo -n 'password' | sha1sum
 {% endhighlight %}
 
-    This will return a string like this:  
+- This will return a string like this:  
 
 {% highlight shell %}
 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8  -
@@ -35,7 +35,7 @@ $ curl https://api.pwnedpasswords.com/range/5baa6 > pass.txt
 $ grep -i "1e4c9b93f3f0682250b6cf8331b7ee68fd8" pass.txt
 {% endhighlight %}
 
-If this returns with a line like this:  
+- If this returns with a line like this:  
 
 {% highlight shell %}
 1E4C9B93F3F0682250B6CF8331B7EE68FD8:3861493
