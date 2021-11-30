@@ -17,7 +17,7 @@ Checking your email is of course one thing, but what about passwords? There is a
 $ echo -n 'password' | sha1sum
 {% endhighlight %}
 
-This will return a string like this:  
+    This will return a string like this:  
 
 {% highlight shell %}
 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8  -
