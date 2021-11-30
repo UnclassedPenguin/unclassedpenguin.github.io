@@ -5,8 +5,15 @@ permalink: /about
 comments: true
 ---
 
-This is a page that I need to fill with some information about me. 
 
-If I can come up with anything it will definitely go in here, but for now it is going to be some random text to fill the screen.
 
-Lorem Ipsum, eh?
+Hey, I'm Tyler. I am interested in technology of all sorts. Have a history working at an ISP and doing IT.
+
+I'd really like to advance my skills in programming and start contributing to open source projects.
+
+Currently I'm learning Ruby/JavaScript as well as working on my html/css.
+
+Thanks for checking out my blog. I also have a [GitHub](https://github.com/UnclassedPenguin).
+
+Happy Coding :)
+
