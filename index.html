@@ -42,8 +42,9 @@ title: Home
 
         {% for post in paginator.posts %}
 
+        {% if post.featured != true %}
         {% include postbox.html %}
-
+		{% endif %}
         {% endfor %}
 
     </div>
