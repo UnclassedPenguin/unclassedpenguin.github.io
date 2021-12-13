@@ -298,3 +298,10 @@ a,
 .container {
   max-width:1000px;
 }
+
+@media screen (max-width: 600px)
+.container {
+  max-width:1000px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
