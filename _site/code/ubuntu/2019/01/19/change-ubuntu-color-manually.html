@@ -1,0 +1,166 @@
+<!doctype html>
+<html class="h-100" lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="/assets/images/logo.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="/jekyllsite/assets/css/styles.css" rel="stylesheet">
+	<title>Unclassed Blog</title>
+  </head>
+
+  <body class="bg-dark d-flex flex-column h-100">
+	<div class="wrapper h-100 w-100 d-flex flex-column">
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark" aria-label="">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="http://localhost:4000/jekyllsite/">Unclassed Blog</a>
+			  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+				<ul class="navbar-nav me-auto mb-2">
+					
+                  		<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="/jekyllsite/">Home</a>
+                  		</li>
+					
+                	
+                  		<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="/jekyllsite/blog/">Blog</a>
+                  		</li>
+					
+                	
+                  		<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="/jekyllsite/about/">About</a>
+                  		</li>
+					
+                	
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://github.com/UnclassedPenguin/UnclassedPenguin/discussions">Contact</a>
+                        </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+	  </header>
+
+	  <main class="flex-shrink-0 text-white pt-4">
+		<div class="container-fluid">
+			<div class="row">
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-6">
+<h1>Change Colour for Ubuntu 18.04 Splash Screen, Login and Grub [Manually]</h1>
+<p class="pb-3">19 Jan 2019 - tyler</p>
+
+<p>I use Ubuntu 18.04 on my laptop, and recently wanted to change the colours that show up when you are booting. It usually shows as the default purple Ubuntu colour, and I wanted to change it to my own, in this case #1A3A41.</p>
+
+<p>I had to scrounge around stackoverflow and other random forums to find the answers, so I decided to write this post and put it all in one place.</p>
+
+<p>There are three stages that we need to change. The Ubuntu login page, splash screen, and then the grub loading screen.</p>
+
+<p>First let’s find the values we will need for our new colour. I found a website that was very helpful for <a href="https://convertingcolors.com">converting colours</a>.</p>
+
+<p>Go there and enter the colour you want to use. The formats we are interested in are RGB and RGB Percent.</p>
+
+<p>For our colour #1A3A41 the RGB values are:</p>
+
+<p>RGB	        26, 58, 65 <br />
+RGB Percent	10%, 23%, 25%</p>
+
+<p>The RGB value is used for ubuntu-logo.grub and the RGB Percent is used in the ubuntu-logo.script, however you have to enter it in as a decimal form of its self. So for us, its 0.10, 0.23, 0.25. The login page uses css so the plain hex colour code will be used there.</p>
+
+<p>Lets begin now that we have everything we need. Open a terminal and we can get started. First we will edit the file to change the login screen colour. Always make sure when editing any system files to first create a backup. Change your directory, and copy the file to a new one of the same name, including a ‘.old’ on the end as a backup.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">1. <span class="nv">$ </span><span class="nb">cd</span> /usr/share/gnome-shell/theme/ubuntu.css
+2. <span class="nv">$ </span><span class="nb">sudo cp </span>ubuntu.css ubuntu.css.old</code></pre></figure>
+
+<p>Now use your favorite text editor (with root privileges) to open the file ‘ubuntu.css‘(/usr/share/gnome-shell/theme/ubuntu.css) and find the following lines. It is helpful to search for the term “lockDialog” to find it easily.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c">#lockDialogGroup {</span>
+  background: <span class="c">#2c001e url(resource:///org/gnome/shell/theme/noise-texture.png);</span>
+  background-repeat: repeat<span class="p">;</span> <span class="o">}</span></code></pre></figure>
+
+<p>Now we are going to edit this using your own hex colour and it should end up looking something like this:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c">#lockDialogGroup {</span>
+  background: <span class="c">#1a3a41;</span>
+  background-repeat: repeat<span class="p">;</span> <span class="o">}</span></code></pre></figure>
+
+<p>Moving on, we will create backups for both the ‘ubuntu-logo.grub’ file (this file is responsible for changing the colour during the grub boot screen) and the ‘ubuntu-logo.script‘ file (this file is responsible for changing the colour during the Ubuntu splash screen that follows the grub boot screen).</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">1. <span class="nv">$ </span><span class="nb">cd</span> /usr/share/plymouth/themes/ubuntu-logo
+2. <span class="nv">$ </span><span class="nb">sudo cp </span>ubuntu-logo.grub ubuntu-logo.grub.old
+3. <span class="nv">$ </span><span class="nb">sudo cp </span>ubuntu-logo.script ubuntu-logo.script.old</code></pre></figure>
+
+<p>Again, edit them using your favorite text editor, starting with the ‘ubuntu-logo.script’  file. Look for these lines:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">    <span class="c"># Previous background colour</span>
+    <span class="c"># #300a24 --&gt; 0.19, 0.04, 0.14</span>
+    <span class="c"># New background colour</span>
+    <span class="c"># #2c001e --&gt; 0.16, 0.00, 0.12</span>
+    <span class="c">#</span>
+    Window.SetBackgroundTopColor <span class="o">(</span>0.16, 0.00, 0.12<span class="o">)</span><span class="p">;</span>     <span class="c"># Nice colour on top of the screen fading to</span>
+    Window.SetBackgroundBottomColor <span class="o">(</span>0.16, 0.00, 0.12<span class="o">)</span><span class="p">;</span>  <span class="c"># an equally nice colour on the bottom</span></code></pre></figure>
+
+<p>We will need to edit the values in parentheses following both the Window.SetBackground colours. Here we will use the RGB Percent values we found earlier.</p>
+
+<p>Change it to look something like this:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">    <span class="c"># Previous background colour</span>
+    <span class="c"># #300a24 --&gt; 0.19, 0.04, 0.14</span>
+    <span class="c"># New background colour</span>
+    <span class="c"># #2c001e --&gt; 0.16, 0.00, 0.12</span>
+    <span class="c">#</span>
+    <span class="c"># Personal Color</span>
+    <span class="c"># #1a3a41 --&gt; 0.10, 0.23, 0.25</span>
+    <span class="c">#</span>
+    Window.SetBackgroundTopColor <span class="o">(</span>0.10, 0.23, 0.25<span class="o">)</span><span class="p">;</span>
+    Window.SetBackgroundBottomColor <span class="o">(</span>0.10, 0.23, 0.25<span class="o">)</span><span class="p">;</span></code></pre></figure>
+
+<p>Now we will edit the ‘ubuntu-logo.grub’ file. This is a small file, and we just need to change the numbers in the first line. Use the RGB values from earlier, and add an extra zero (I am not sure if this extra zero is necessary, feel free to do some experimenting and let me know what you find out). It will end up looking something like this, with your own values of course:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">    <span class="k">if </span>background_color 26,58,65,0<span class="p">;</span> <span class="k">then
+      </span>clear
+    <span class="k">fi</span></code></pre></figure>
+
+<p>Now we need to execute a couple commands to let the computer know we changed these files.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">1. <span class="nv">$ </span><span class="nb">sudo </span>update-grub
+2. <span class="nv">$ </span><span class="nb">sudo </span>update-initramfs <span class="nt">-u</span></code></pre></figure>
+
+<p>Now finally you can reboot your computer and see that all of your colours have changed. My favorite part of Linux is that it is much more customizable than other well known OSs.</p>
+
+	</div>
+	<div class="col-md-3">
+	</div>
+</div>
+
+		</div>
+	</main>
+
+	<footer class="footer mt-auto py-3 text-center">
+	<span class="text-muted">
+		<small>Made by 
+			<a href="https://github.com/unclassedpenguin" target="_blank">UnclassedPenguin</a> 
+			With 
+			<a href="https://getbootstrap.com" target="_blank">Bootstrap</a> 
+			and 
+			<a href="https://jekyllrb.com/" target ="_blank">Jekyll</a>
+		</small>
+	</span>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	  </div>
+
+  </body>
+</html>
+

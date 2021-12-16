@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n\n\nbody {\n\tfont-family: arial;\n}\n\nh2 a, p a {\n\tcolor: #98B8EB !important;\n\ttext-decoration: none;\n}\n\nh2 a:hover, p a:hover {\n\tcolor:#588CDF !important;\n\t\n}\n\nimg {\n\twidth: 100%;\n}\n\n.navbar-brand {\n\tfont-size: 1.5rem;\n}\n\n.photo-credit {\n    font-size: 80% !important;\n    margin-bottom: 20px;\n}\n\n\n\n\n\n\n/*\n * Globals\n */\n\n\n/* Custom default button */\n.btn-secondary,\n.btn-secondary:hover,\n.btn-secondary:focus {\n  color: #333;\n  text-shadow: none; /* Prevent inheritance from `body` */\n}\n\n\n/*\n * Base structure\n */\n\nhtml, body, .wrapper {\n   height: 100%;\n   width: 100%;\n}\n\n.wrapper {\n  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);\n  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);\n  overflow:auto;\n}\n\n\n.cover-container {\n  max-width: 42em;\n}\n\n/*\n * Header\n */\n\n.nav-masthead .nav-link {\n  padding: .25rem 0;\n  font-weight: 700;\n  color: rgba(255, 255, 255, .5);\n  background-color: transparent;\n  border-bottom: .25rem solid transparent;\n}\n\n.nav-masthead .nav-link:hover,\n.nav-masthead .nav-link:focus {\n  border-bottom-color: rgba(255, 255, 255, .25);\n}\n\n.nav-masthead .nav-link + .nav-link {\n  margin-left: 1rem;\n}\n\n.nav-masthead .active {\n  color: #fff;\n  border-bottom-color: #fff;\n}\n\n",
+		"/*\nMain CSS file for Unclassed Theme\n*/\n\n\n"
+	],
+	"names": [],
+	"mappings": "ACAA;;EAEE;ADCF,AAAA,IAAI,CAAC,EACJ,WAAW,EAAE,KAAK,GAClB;;AAED,AAAA,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EACT,KAAK,EAAE,kBAAkB,EACzB,eAAe,EAAE,IAAI,GACrB;;AAED,AAAA,EAAE,CAAC,CAAC,CAAC,KAAK,EAAE,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,EACrB,KAAK,EAAC,kBAAkB,GAExB;;AAED,AAAA,GAAG,CAAC,EACH,KAAK,EAAE,IAAI,GACX;;AAED,AAAA,aAAa,CAAC,EACb,SAAS,EAAE,MAAM,GACjB;;AAED,AAAA,aAAa,CAAC,EACV,SAAS,EAAE,cAAc,EACzB,aAAa,EAAE,IAAI,GACtB;;AAOD,aAEG;AAGH,2BAA2B;AAC3B,AAAA,cAAc,EACd,cAAc,CAAC,KAAK,EACpB,cAAc,CAAC,KAAK,CAAC,EACnB,KAAK,EAAE,IAAI,EACX,WAAW,EAAE,IAAI,EAAE,qCAAqC,EACzD;;AAGD,oBAEG;AAEH,AAAA,IAAI,EAAE,IAAI,EAAE,QAAQ,CAAC,EAClB,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,GACb;;AAED,AAAA,QAAQ,CAAC,EACP,WAAW,EAAE,CAAC,CAAC,OAAM,CAAC,MAAK,CAAC,kBAAiB,EAC7C,UAAU,EAAE,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,kBAAiB,EAC5C,QAAQ,EAAC,IAAI,GACd;;AAGD,AAAA,gBAAgB,CAAC,EACf,SAAS,EAAE,IAAI,GAChB;;AAED,YAEG;AAEH,AAAA,aAAa,CAAC,SAAS,CAAC,EACtB,OAAO,EAAE,QAAQ,EACjB,WAAW,EAAE,GAAG,EAChB,KAAK,EAAE,wBAAuB,EAC9B,gBAAgB,EAAE,WAAW,EAC7B,aAAa,EAAE,wBAAwB,GACxC;;AAED,AAAA,aAAa,CAAC,SAAS,CAAC,KAAK,EAC7B,aAAa,CAAC,SAAS,CAAC,KAAK,CAAC,EAC5B,mBAAmB,EAAE,yBAAwB,GAC9C;;AAED,AAAA,aAAa,CAAC,SAAS,GAAG,SAAS,CAAC,EAClC,WAAW,EAAE,IAAI,GAClB;;AAED,AAAA,aAAa,CAAC,OAAO,CAAC,EACpB,KAAK,EAAE,IAAI,EACX,mBAAmB,EAAE,IAAI,GAC1B"
+}
