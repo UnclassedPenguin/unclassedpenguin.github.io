@@ -1,7 +1,7 @@
 #site
 name: "Unclassed Blog"
-url: https://unclassed.ca/jekyllsite
-baseurl: "/jekyllsite"
+url: https://unclassed.ca/
+baseurl: ""
 
 #Cover Page
 coverheader: "Hey I'm Tyler"
