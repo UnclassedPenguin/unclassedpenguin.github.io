@@ -1,7 +1,7 @@
 #site
 name: "Unclassed Blog"
 url: https://unclassed.ca
-baseurl: "/jekyllsite"
+baseurl: ""
 permalink: /:year/:month/:day/:title/ 
 
 
