@@ -12,10 +12,10 @@ body {
 
 .randomcolorheader {
 	color: var(--rand);
+	text-decoration: none;
 }
 
 .randomcolor, h2 a, p a {
-	color: var(--rand);
 	text-decoration: none;
 }
 

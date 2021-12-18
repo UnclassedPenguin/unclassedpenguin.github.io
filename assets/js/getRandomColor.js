@@ -8,9 +8,11 @@ const colors = ["#81EF9E",
 		"#CB98EB",
 		"#98B8EB"];
 
+
 function getRandomColor() {
   return colors[Math.floor(Math.random() * colors.length)];
 }
+
 
 function setRandomLinkColor() {
   Array.from(document.getElementsByClassName("randomcolor")).forEach((item) => {
@@ -20,15 +22,13 @@ function setRandomLinkColor() {
 
 
 function getRandomColorHeader() {
-
 	var r = document.querySelector(':root');
-
 	var length = colors.length
 	var rand = Math.floor((Math.random() * length) + 0);
 	r.style.setProperty('--rand', colors[rand])
 	return colors[rand];
-	
 }
+
 
 setRandomLinkColor();
 getRandomColorHeader();
