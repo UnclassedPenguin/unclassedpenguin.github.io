@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Change Colour for Ubuntu 18.04 Splash Screen, Login and Grub [Manually]"
+author: tyler
+image: assets/images/ubuntu-logo-768x433.jpg
 date: 2019-01-19
 categories: code Ubuntu
 ---
-
-![ubuntu logo screenshot](/assets/ubuntu-logo-768x433.jpg) 
 
 I use Ubuntu 18.04 on my laptop, and recently wanted to change the colours that show up when you are booting. It usually shows as the default purple Ubuntu colour, and I wanted to change it to my own, in this case #1A3A41.
 

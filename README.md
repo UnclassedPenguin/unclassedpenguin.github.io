@@ -1,4 +1,3 @@
-# unclassedpenguin.github.io
-Unclassed Blog
+# Playing around some more :P
 
-Messing around with a [blog](https://UnclassedPenguin.github.io)
+Playing with jekyll and bootstrap
