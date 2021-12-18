@@ -15,7 +15,7 @@ title: ToDo
 	- Maybe not done...I'm not really happy with the coloring of the syntax. Keep thinking on it. 
 - [ ] SEO
 	- [ ] Research SEO plugin for Jekyll
-	- [ ] Implement Plugin
+	- [x] Implement jekyll-seo-tag Plugin
 - [ ] Search
 	- [ ] Research search (lawl) (lunr perhaps?)
 	- [ ] Implement search
