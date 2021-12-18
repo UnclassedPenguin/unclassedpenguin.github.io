@@ -17,6 +17,7 @@ collections:
 #Plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 
 #Other
