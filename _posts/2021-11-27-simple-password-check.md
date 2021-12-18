@@ -5,10 +5,10 @@ author: tyler
 categories: [ Security ]
 ---
 
-[HaveIBeenPwned](https://haveibeenpwned.com/) is a site that you can type in your email and check if you have been part of any leaks that have happened on the internet. 
+<a class="randomcolor" href="https://haveibeenpwned.com/" target="_blank">HaveIBeenPwned</a> is a site that you can type in your email and check if you have been part of any leaks that have happened on the internet. 
   
  
-Checking your email is of course one thing, but what about passwords? There is a site that you can enter your password and check if it has shown up in any of the breaches, but no matter how trustworthy a person or site is, I think its a terrible idea. Luckily there is a way around this that you can check your password without giving it away to anyone. If you run linux, its as easy as just a few commands typed into your terminal. Here are the steps to safely check if your password has been exposed in any data breaches. Credit to [Troy Hunt](https://www.troyhunt.com/) for creating the Have I Been Pwned site, as well as [Mike Pound](https://github.com/mikepound) for pointing this out on the [Computerphile](https://www.youtube.com/watch?v=hhUb5iknVJs) YouTube channel. Lets check your passwords now. 
+Checking your email is of course one thing, but what about passwords? There is a site that you can enter your password and check if it has shown up in any of the breaches, but no matter how trustworthy a person or site is, I think its a terrible idea. Luckily there is a way around this that you can check your password without giving it away to anyone. If you run linux, its as easy as just a few commands typed into your terminal. Here are the steps to safely check if your password has been exposed in any data breaches. Credit to <a class="randomcolor" href="https://www.troyhunt.com/" target="_blank">Troy Hunt</a> for creating the Have I Been Pwned site, as well as <a class="randomcolor" href="https://github.com/mikepound" target="_blank">Mike Pound</a> for pointing this out on the <a class="randomcolor" href="https://www.youtube.com/watch?v=hhUb5iknVJs" target="_blank">Computerphile</a> YouTube channel. Lets check your passwords now. 
 
 - Open a terminal
 - We need to hash your password to SHA-1 to check it against the database (replace 'password' with your own password)  

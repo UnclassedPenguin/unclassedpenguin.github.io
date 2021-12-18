@@ -13,7 +13,7 @@ I had to scrounge around stackoverflow and other random forums to find the answe
 
 There are three stages that we need to change. The Ubuntu login page, splash screen, and then the grub loading screen.
 
-First let’s find the values we will need for our new colour. I found a website that was very helpful for [converting colours](https://convertingcolors.com).
+First let’s find the values we will need for our new colour. I found a website that was very helpful for <a class="randomcolor" href="https://convertingcolors.com" target="_blank">converting colours</a>.
 
 Go there and enter the colour you want to use. The formats we are interested in are RGB and RGB Percent.
 
