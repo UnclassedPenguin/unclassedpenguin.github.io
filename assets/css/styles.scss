@@ -10,6 +10,10 @@ body {
 	font-family: arial;
 }
 
+.randomcolorheader {
+	color: var(--rand);
+}
+
 .randomcolor, h2 a, p a {
 	color: var(--rand);
 	text-decoration: none;

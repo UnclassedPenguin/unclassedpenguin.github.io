@@ -1,38 +1,27 @@
-	const colors = ["#81EF9E",
-			"#9E81EF",
-			"#EF9E81",
-			"#EF81D2",
-			"#D581EF",
-			"#81EFD5",
-			"#81D2EF",
-			"#CB98EB",
-			"#98B8EB"];
+const colors = ["#81EF9E",
+		"#9E81EF",
+		"#EF9E81",
+		"#EF81D2",
+		"#D581EF",
+		"#81EFD5",
+		"#81D2EF",
+		"#CB98EB",
+		"#98B8EB"];
 
 function getRandomColor() {
   return colors[Math.floor(Math.random() * colors.length)];
 }
 
 function setRandomLinkColor() {
-  Array.from(document.getElementsByTagName("a")).forEach((e) => {
-    e.style.color = getRandomColor();
+  Array.from(document.getElementsByClassName("randomcolor")).forEach((item) => {
+    item.style.color = getRandomColor();
   });
 }
 
-setRandomLinkColor();
 
+function getRandomColorHeader() {
 
-/*
-function getRandomColor() {
 	var r = document.querySelector(':root');
-	const colors = ["#81EF9E",
-			"#9E81EF",
-			"#EF9E81",
-			"#EF81D2",
-			"#D581EF",
-			"#81EFD5",
-			"#81D2EF",
-			"#CB98EB",
-			"#98B8EB"];
 
 	var length = colors.length
 	var rand = Math.floor((Math.random() * length) + 0);
@@ -41,5 +30,5 @@ function getRandomColor() {
 	
 }
 
-getRandomColor();
-*/
+setRandomLinkColor();
+getRandomColorHeader();
