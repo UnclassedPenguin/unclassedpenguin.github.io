@@ -26,4 +26,5 @@ title: ToDo
 - [ ] Pagination
 	- [ ] Pages
 	- [ ] Next/Previous post links 
-- [ ] Keep working on getRandomColor.js to give links different colors instead of all the same. 
+- [x] Keep working on getRandomColor.js to give links different colors instead of all the same. 
+	- I'm going to call this fine for now. It might be too colorful, can always change it later...
