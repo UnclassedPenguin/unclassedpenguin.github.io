@@ -1,3 +1,3 @@
-# Playing around some more :P
+## Unclassed Blog
 
 Playing with jekyll and bootstrap
