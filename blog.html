@@ -6,8 +6,8 @@ permalink: /blog/
 <div class="row justify-content-center">
   {% for post in site.posts %}
   <div class="px-4 py-2  col-md-6 text-white">
-	  <h2><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
+	<h2><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
   </div>
   {% endfor %}
 </div>
