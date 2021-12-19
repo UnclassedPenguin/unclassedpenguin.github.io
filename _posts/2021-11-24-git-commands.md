@@ -23,7 +23,7 @@ categories: [Github, Cheat Sheet]
 	`$ git checkout main`
 
 - Then merge  
-	`$ git merge main`
+	`$ git merge new-branch`
 
 - Once everything is checked and running fine, delete the branch  
 	`$ git branch -d new-branch`	
