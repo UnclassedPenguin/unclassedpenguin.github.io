@@ -4,7 +4,7 @@ title: "Spacemacs as a Main Text Editor"
 author: tyler
 image: assets/images/Spacemacs-screenshot-768x421.png
 date: 2018-12-9
-categories: programming
+categories: Programming
 ---
 
 I had been avoiding <a class="randomcolor" href="https://www.gnu.org/software/emacs/" target="_blank">Emacs</a> for quite awhile because I was a little iffy about all the complicated keyboard shortcuts, but I decided to finally bite the bullet and downloaded it on my Ubuntu 18.04 laptop.

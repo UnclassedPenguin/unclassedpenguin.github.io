@@ -2,7 +2,7 @@
 layout: post
 title: "Simple Password Check"
 author: tyler
-categories: [ Security ]
+categories: Security
 ---
 
 <a class="randomcolor" href="https://haveibeenpwned.com/" target="_blank">HaveIBeenPwned</a> is a site that you can type in your email and check if you have been part of any leaks that have happened on the internet. 
