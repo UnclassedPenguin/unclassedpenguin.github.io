@@ -3,7 +3,7 @@ layout: post
 title: "Git Commands Cheat Sheet"
 author: tyler
 image:
-categories: Github Cheat Sheet
+categories: [Github, Cheat Sheet]
 ---
 ### Branches
 
