@@ -2,7 +2,7 @@
 name: "Unclassed Blog"
 url: https://unclassed.ca
 baseurl: 
-permalink: /:year/:month/:day/:title/ 
+permalink: /:year/:title/ 
 
 
 #Cover Page
