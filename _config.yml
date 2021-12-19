@@ -5,10 +5,10 @@ baseurl:
 permalink: /:year/:month/:day/:title/ 
 
 
-
 #Cover Page
 coverheader: "Hey I'm Tyler"
 coversub: "This is my blog where I will post about technology, life, farming, and more!"
+
 
 collections:
   authors:
@@ -22,6 +22,7 @@ plugins:
 
 #Other
 markdown: kramdown
+
 
 kramdown:
   input: GFM
