@@ -4,10 +4,27 @@ layout: default
 <div class="row">
   <div class="col-md-3">
   </div>
-  <div class="col-md-6 pb-2 border-bottom">
+  <div class="col-md-6 pb-2 mb-4 border-bottom">
     <h1 class="randomcolor">{{ page.title }}</h1>
     <p class="pb-3">{{ page.date | date_to_string }} - {{ page.author }}</p>
     {{ content }}
+  </div>
+  <div class="col-md-3">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-3">
+  </div>
+  <div class="col-md-3">
+    {% if page.previous.url %}
+      <a class="randomcolorheader" href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </div>
+  <div class="col-md-3" style="text-align:right;">
+    {% if page.next.url %}
+      <a class="randomcolorheader" href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+    {% endif %}
   </div>
   <div class="col-md-3">
   </div>
