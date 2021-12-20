@@ -21,7 +21,8 @@ title: ToDo
 	- [ ] Implement search
 - [ ] Implement categories
 	- [ ] Look into jekyll-archives
-	- [ ] Categories page
+	- [x] Categories page
+		- /categories is live. Not sure I need archives?
 - [ ] Featured image perhaps?
 - [ ] Pagination
 	- [ ] Pages
