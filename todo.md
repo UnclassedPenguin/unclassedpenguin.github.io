@@ -30,4 +30,5 @@ title: ToDo
 	- [x] Next/Previous post links 
 - [x] Keep working on getRandomColor.js to give links different colors instead of all the same. 
 	- I'm going to call this fine for now. It might be too colorful, can always change it later...
+- [ ] Add <--more--> for continue reading
 - [ ] Test :)
