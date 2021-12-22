@@ -33,4 +33,5 @@ title: ToDo
 - [x] Add <--more--> for continue reading  
         - Again. Not sure I'm happy with this. Leave it for now.  
          (I added excerpt_separator to _config.yml. as well as edited blog.html to add button beneath excerpt)
+- [ ] Fix blockquotes
 - [ ] Test :)
