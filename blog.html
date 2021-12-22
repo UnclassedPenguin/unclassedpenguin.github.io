@@ -3,11 +3,12 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
+
+{% for post in site.posts %}
 <div class="row justify-content-center">
-  {% for post in site.posts %}
-  <div class="px-4 py-2  col-md-6 text-white">
+  <div class="px-4 py-3  col-md-6 text-white">
 	<h2><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
   </div>
-  {% endfor %}
 </div>
+{% endfor %}
