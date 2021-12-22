@@ -10,7 +10,7 @@ categories: [Code, Ubuntu]
 I use Ubuntu 18.04 on my laptop, and recently wanted to change the colours that show up when you are booting. It usually shows as the default purple Ubuntu colour, and I wanted to change it to my own, in this case #1A3A41.
 
 I had to scrounge around stackoverflow and other random forums to find the answers, so I decided to write this post and put it all in one place.
-
+<!--more-->
 There are three stages that we need to change. The Ubuntu login page, splash screen, and then the grub loading screen.
 
 First let’s find the values we will need for our new colour. I found a website that was very helpful for <a class="randomcolor" href="https://convertingcolors.com" target="_blank">converting colours</a>.

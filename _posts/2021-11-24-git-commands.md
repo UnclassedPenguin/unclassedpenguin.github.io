@@ -12,7 +12,7 @@ categories: [Github, Cheat Sheet]
 
 - Create new branch  
 	`$ git branch new-branch`
-
+<!--more-->
 - Switch to new branch  
 	`$ git checkout new-branch`
 

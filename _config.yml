@@ -3,6 +3,7 @@ name: "Unclassed Blog"
 url: https://unclassed.ca
 baseurl: 
 permalink: /:year/:title/ 
+excerpt_separator: <!--more-->
 
 
 #Cover Page
