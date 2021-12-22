@@ -30,5 +30,7 @@ title: ToDo
 	- [x] Next/Previous post links 
 - [x] Keep working on getRandomColor.js to give links different colors instead of all the same. 
 	- I'm going to call this fine for now. It might be too colorful, can always change it later...
-- [ ] Add <--more--> for continue reading
+- [x] Add <--more--> for continue reading
+        - Again. Not sure I'm happy with this. Leave it for now. 
+         (I added excerpt_separator to _config.yml. as well as edited blog.html to add button beneath excerpt)
 - [ ] Test :)
