@@ -8,16 +8,16 @@ layout: default
     <h1 class="randomcolor">{{ page.title }}</h1>
     <p class="pb-4">{{ page.date | date_to_string }} - {{ page.author }}</p>
     {{ content }}
-  <div class="pb-3 text-center">
-	{% if post %}
+    <div class="pb-3 text-center">
+      {% if post %}
       {% assign categories = post.categories %}
-    {% else %}
+      {% else %}
       {% assign categories = page.categories %}
-    {% endif %}
-	{% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="randomcolor btn btn-outline-light btn-sm">{{category}}</a>
-	{% endfor %}
-  </div>
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="randomcolor btn btn-outline-light btn-sm">{{category}}</a>
+      {% endfor %}
+    </div>
 
   </div>
   <div class="col-md-3">
@@ -29,12 +29,12 @@ layout: default
   </div>
   <div class="col-md-3">
     {% if page.previous.url %}
-      <a class="randomcolorheader" href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+    <a class="randomcolorheader" href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
     {% endif %}
   </div>
   <div class="col-md-3" style="text-align:right;">
     {% if page.next.url %}
-      <a class="randomcolorheader" href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+    <a class="randomcolorheader" href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
     {% endif %}
   </div>
   <div class="col-md-3">
