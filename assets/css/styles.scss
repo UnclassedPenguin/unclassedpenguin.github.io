@@ -3,51 +3,55 @@
 @import "main";
 
 :root {
-	--rand: #98b8eb;
+  --rand: #98b8eb;
 }
 
 body {
-	font-family: arial;
+  font-family: arial;
+}
+
+blockquote {
+  font-style: italic;
+  padding: 0 1rem 0 1rem;
 }
 
 .randomcolorheader {
-	color: var(--rand);
-	text-decoration: none;
+  color: var(--rand);
+  text-decoration: none;
 }
 
 .randomcolor, h2 a, p a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /*
 h2 a, p a {
-	color: #98B8EB !important;
-	text-decoration: none;
+color: #98B8EB !important;
+text-decoration: none;
 }
-*/
+ */
 
 
-h2 a:hover, 
-h4 a:hover, 
+h2 a:hover,
+h4 a:hover,
 p a:hover,
 a:hover {
-	color:#588CDF !important;
-	
+  color:#588CDF !important;
+
 }
 
 img {
-	width: 100%;
+  width: 100%;
 }
 
 .navbar-brand {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .photo-credit {
-    font-size: 80% !important;
-    margin-bottom: 20px;
+  font-size: 80% !important;
+  margin-bottom: 20px;
 }
-
 
 /*
  * Globals -- COVER PAGE --
@@ -68,8 +72,8 @@ img {
  */
 
 html, body, .wrapper {
-   height: 100%;
-   width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .wrapper {
