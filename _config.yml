@@ -22,7 +22,7 @@ plugins:
   - jekyll-paginate
 
 #Paginate
-paginate: 10
+paginate: 6
 paginate_path: "/blog/page:num/"
 
 #Other
