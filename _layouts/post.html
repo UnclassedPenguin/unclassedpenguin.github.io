@@ -11,8 +11,6 @@ layout: default
     {% if page.image %}
     <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
     <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.imageauthorlink }}">{{ page.imageauthor }}</a> on <a class="randomcolor" href="{{ page.imagelink }}">{{ page.imagelinkname }}</a></div>
-
-
     {% endif %}
 
     {{ content }}
