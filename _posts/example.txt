@@ -2,9 +2,12 @@
 layout: post
 title:  "We all wait for summer"
 author: tyler
-categories: [ Jekyll, tutorial ]
+categories: Jekyll
 image: assets/images/5.jpg
-featured: true
+imageauthor: 
+imageauthorlink:
+imagelink:
+imagelinkname:
 ---
 
 [link](url){:target="_blank"}

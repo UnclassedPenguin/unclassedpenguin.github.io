@@ -5,20 +5,20 @@ permalink: /blog/
 ---
 
 <div class="row justify-content-center">
-{% for post in site.posts %}
+  {% for post in site.posts %}
   <div class="py-3  col-md-6 text-white">
-	<h2><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            {{ post.excerpt }}
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-4 d-flex justify-content-center">
-                <!--<a class="btn btn-outline-light btn-sm" href="{{ site.baseurl }}{{ post.url }}">Read More</a>-->
-                <a class="randomcolor" href="{{ site.baseurl }}{{ post.url }}">Read More...</a>
-            </div>
-            <div class="col-md-4">
-            </div>
-        </div>
+    <h2><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <!--<a class="btn btn-outline-light btn-sm" href="{{ site.baseurl }}{{ post.url }}">Read More</a>-->
+        <a class="randomcolor" href="{{ site.baseurl }}{{ post.url }}">Read More...</a>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
   </div>
-{% endfor %}
+  {% endfor %}
 </div>

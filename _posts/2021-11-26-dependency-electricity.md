@@ -2,19 +2,20 @@
 layout: post
 title: "Our Dependency on Electricity"
 author: tyler
+date: 2021-11-26
 categories: Thoughts
 image: assets/images/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg
-featured: true
-date: 2021-11-26
+imageauthor: Fré Sonneveld
+imageauthorlink: https://unsplash.com/@fresonneveld?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+imagelink: https://unsplash.com/s/photos/electricity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+imagelinkname: Unsplash
 ---
 
-![Image]({{site.baseurl}}/assets/images/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg)
-<!--more-->
-<div class="photo-credit">Photo by <a href="https://unsplash.com/@fresonneveld?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fré Sonneveld</a> on <a href="https://unsplash.com/s/photos/electricity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
 
 > What would you do if your power was out for an extended period of time? Have you ever considered it?
 
 It's winter here on our farm in a remote area of Northern Alberta, Canada. We have snow on the ground outside, and today as I'm writing this we are fortunate that some wind has brought us warm weather. Currently it is about 2 degrees celsius outside. Of course, there are two sides to everything, and this same wind that brings us some enjoyable temperatures has also taken out a powerline somewhere that has taken out the power. 
+<!--more-->
 Things were fine when I went outside this morning to do chores. Feed the goats, feed the chickens, check on the cows and the horse, give our guardian dogs a pat on the head and a good morning. As I finished up and came into the house though, I noticed that the light in our entryway, which is never turned off, was out, and I thought to myself, "Huh what are the odds the bulb burned out while I was out doing chores."
 
 As I came in though, taking off my boots and my coat, I went to rinse out the bottle I use to feed our bottle-fed calf, and as I turned the faucet expecting water to come out, nothing did. That's when I realised that the bulb hadn't burned out, our power was out. 
