@@ -19,7 +19,11 @@ collections:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
+#Paginate
+paginate: 6
+paginate_path: "/blog/page:num/"
 
 #Other
 markdown: kramdown
