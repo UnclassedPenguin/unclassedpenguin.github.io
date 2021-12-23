@@ -2,7 +2,11 @@
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
   color: #f8f8f2;
-  background-color: #212529;
+  /*background-color: #212529;*/
+  background-color: transparent !important;
+  padding: 10px;
+  border: 1px solid #717171;
+  border-radius: 3px;
 }
 .highlight .err {
   color: #212529;
@@ -31,7 +35,8 @@
 }
 .highlight .gh {
   color: #66d9ef;
-  background-color: #212529;
+  /*background-color: #212529;*/
+  background-color: transparent !important;
   font-weight: bold;
 }
 .highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
