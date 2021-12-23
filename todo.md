@@ -26,8 +26,8 @@ title: ToDo
     - [x] Display categories on post's
 - [x] Featured image perhaps?  
   - This is implemented in post. Maybe still add it to main page? 
-- [ ] Pagination
-  - [ ] Pages
+- [x] Pagination
+  - [x] Pages
   - [x] Next/Previous post links 
 - [x] Keep working on getRandomColor.js to give links different colors instead of all the same. 
   - I'm going to call this fine for now. It might be too colorful, can always change it later...
