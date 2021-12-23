@@ -23,6 +23,7 @@ title: Blog
 </div>
 
 <!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
 <div class="row justify-content-center">
   <div class="col-3">
   </div>
@@ -48,3 +49,4 @@ title: Blog
   <div class="col-3">
   </div>
 </div>
+{% endif %}
