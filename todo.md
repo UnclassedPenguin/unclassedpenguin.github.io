@@ -9,7 +9,7 @@ title: ToDo
  Might as well be public, eh?
 
 -----
-
+- [ ] Add Projects page
 - [x] Implement sitemap
 - [x] Implement syntax highlighting
   - Maybe not done...I'm not really happy with the coloring of the syntax. Keep thinking on it. 
