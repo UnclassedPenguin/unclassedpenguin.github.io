@@ -7,7 +7,7 @@ categories: [Github, Cheat Sheet]
 ---
 ### Aliases
 
-- Create global alias (where name is name of your alias and command is the command you want to replace)
+- Create global alias (where name is name of your alias and command is the command you want to replace)   
         `$ git config --global alias.NAME "COMMAND"`
 
 ### Branches
