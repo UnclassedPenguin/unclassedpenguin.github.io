@@ -5,12 +5,12 @@ author: tyler
 image:
 categories: [Github, Cheat Sheet]
 ---
-### Aliases
+#### Aliases
 
 - Create global alias (where name is name of your alias and command is the command you want to replace)   
         `$ git config --global alias.NAME "COMMAND"`
 
-### Branches
+#### Branches
 
 - Check local branches   
 	`$ git branch`
@@ -33,7 +33,7 @@ categories: [Github, Cheat Sheet]
 - Once everything is checked and running fine, delete the branch  
 	`$ git branch -d new-branch`	
 
-### Contributing to a Project
+#### Contributing to a Project
 
 - Fork the repository you want to contribute to
 
