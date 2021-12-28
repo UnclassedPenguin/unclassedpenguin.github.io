@@ -12,4 +12,4 @@ categories: Linux
 ---
 
 ## Coming Soon!
-
+<!--more-->
