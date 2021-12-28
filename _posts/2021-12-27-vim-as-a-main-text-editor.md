@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vim as a Main Text Editor"
+title: Vim as a Main Text Editor
 author: tyler
 date: 2021-12-27
 categories: Vim 
