@@ -4,7 +4,7 @@ author: tyler
 title: This Is A Test
 ---
 
-This is some lorem ipsum text what am I going to write about but some things I am trying to make a jekyll theme from scratch and I don't know what I am doing but I am learning and it will maybe help me one day to figure it out. 
+This is a test page where I will add some random elements and such to see how they look. This page is likely to change as I add more things to try out. Thanks!
 <!--more-->
 ## Syntax Highlighting
 
