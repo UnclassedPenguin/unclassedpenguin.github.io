@@ -4,13 +4,13 @@ title: Trying Out Zsh (and Oh My Zsh)
 author: tyler
 date: 2021-12-27
 categories: Linux 
+image: assets/images/zsh-screenshot.png
+imageauthor: tyler 
+imageauthorlink: https://unclassed.ca/about
+imagelink: https://unclassed.ca/2021/trying-out-zsh 
+imagelinkname: Unclassed.ca
 ---
 
-<!--image: assets/images/5.jpg-->
-<!--imageauthor: -->
-<!--imageauthorlink:-->
-<!--imagelink:-->
-<!--imagelinkname:-->
 
 
 For the longest time I haven't even considered what shell I have been using. I run Ubuntu (currently 20.04) so my default shell has always been Bash, which has never bothered me. I was browsing [GitHub](https://github.com){:target="_blank" class="randomcolor"}<!--_--> the other day and came across the repository for [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh){:target="_blank" class="randomcolor"}<!--_--> and I decided to look into it a bit more, since I had heard about it before.   
