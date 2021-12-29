@@ -36,3 +36,16 @@ Now I have been using zsh for about a week, and I am quite enjoying it. I like t
 
 If you are bored and feel like messing around with something, maybe give Zsh a try on your computer, and [let me know](https://github.com/UnclassedPenguin/UnclassedPenguin/discussions/2){:target="_blank" class="randomcolor"}<!--_--> what ya think. 
 
+#### Update:
+I figured out what was wrong with my setup. I was just missing a few folders from my path. I looked at my .bashrc and found a few lines that had been added:  
+{% highlight shell %}
+# Install Ruby Gems to ~/gems 
+export GEM_HOME="$HOME/gems" 
+export PATH="$HOME/gems/bin:$PATH" 
+ 
+ 
+export NPM_CONFIG_PREFIX=~/.npm-global 
+export PATH=$PATH:~/.npm-global/bin
+{% endhighlight %}
+
+After adding these to my .zshrc, everything seemed to be working! Hoorah!
