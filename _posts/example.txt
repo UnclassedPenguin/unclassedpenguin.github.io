@@ -12,3 +12,5 @@ imagelinkname:
 ---
 
 [link](url){:target="_blank"}
+{% highlight shell %}
+{% endhighlight %}
