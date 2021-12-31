@@ -11,7 +11,7 @@ I set up my [VPS](https://m.do.co/c/d028c143320b){:target="_blank" class="random
 $ git remote add remotename ssh://user@10.10.10.10:8910/path/to/your/git/repo.git
 {% endhighlight %}
 
-Its not so bad, but of course we are ~~lazy~~ efficient. Wouldn't it be nice if instead of `ssh://user@10.10.10.10:8910/path/to/your/git/repo.git` you could just use `yourserve://repo.git`? Of course like most things in the developer world this is possible, I'll show you how.  
+Its not so bad, but of course we are ~~lazy~~ efficient. Wouldn't it be nice if instead of `ssh://user@10.10.10.10:8910/path/to/your/git/repo.git` you could just use `yourserver://repo.git`? Of course like most things in the developer world this is possible, I'll show you how.  
 
 All we need to do is open up your `.gitconfig` and add a couple lines.  
 {% highlight shell %}
@@ -28,6 +28,12 @@ user | : your username
 yourserver:// | : whatever you want to use as a shortened url
 
 <br>
+Alternatively you can use the `git` cmd to do it as well:  
+{% highlight shell %}
+$ git config --global url."ssh://user@10.10.10.10:8910/path/to/your/git/".insteadOf yourserver://
+{% endhighlight %}
+
+
 Now, after you've added the blank git repository on your server, all you need to do from the project root is:
 {% highlight shell %}
 $ git remote add remotename yourserver://repo.git
