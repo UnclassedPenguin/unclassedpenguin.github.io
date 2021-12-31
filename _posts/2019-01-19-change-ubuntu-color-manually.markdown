@@ -4,7 +4,7 @@ title: "Change Colour for Ubuntu 18.04 Splash Screen, Login and Grub [Manually]"
 author: tyler
 image: assets/images/ubuntu-logo-768x433.jpg
 date: 2019-01-19
-categories: [Code, Ubuntu]
+categories: Ubuntu
 ---
 
 I use Ubuntu 18.04 on my laptop, and recently wanted to change the colours that show up when you are booting. It usually shows as the default purple Ubuntu colour, and I wanted to change it to my own, in this case #1A3A41.
@@ -19,8 +19,8 @@ Go there and enter the colour you want to use. The formats we are interested in 
 
 For our colour #1A3A41 the RGB values are:
 
-RGB	        26, 58, 65   
-RGB Percent	10%, 23%, 25%
+RGB | :  26, 58, 65   
+RGB Percent | :  10%, 23%, 25%
 
 The RGB value is used for ubuntu-logo.grub and the RGB Percent is used in the ubuntu-logo.script, however you have to enter it in as a decimal form of its self. So for us, its 0.10, 0.23, 0.25. The login page uses css so the plain hex colour code will be used there.
 
