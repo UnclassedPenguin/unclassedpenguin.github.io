@@ -8,21 +8,21 @@ categories: Git
 
 I set up my [VPS](https://m.do.co/c/d028c143320b){:target="_blank" class="randomcolor"}<!--_--> to act as a remote [Git](https://git-scm.com/){:target="_blank" class="randomcolor"}<!--_--> repository so that I can store things on there as well as on [GitHub](https://github.com){:target="_blank" class="randomcolor"}<!--_-->. In doing so I realised though that the URL can get a bit unruly. When I wanted to add a remote to one of my local repositories I had to use:<!--more-->
 {% highlight shell %}
-$ git remote add remotename ssh://user@192.192.192.192:8910/path/to/your/git/repo.git
+$ git remote add remotename ssh://user@10.10.10.10:8910/path/to/your/git/repo.git
 {% endhighlight %}
 
-Its not so bad, but of course we are ~~lazy~~ efficient. Wouldn't it be nice if instead of `ssh://user@192.192.192.192:8910/path/to/your/git/repo.git` you could just use `yourserve://repo.git`? Of course like most things in the developer world this is possible, I'll show you how.  
+Its not so bad, but of course we are ~~lazy~~ efficient. Wouldn't it be nice if instead of `ssh://user@10.10.10.10:8910/path/to/your/git/repo.git` you could just use `yourserve://repo.git`? Of course like most things in the developer world this is possible, I'll show you how.  
 
 All we need to do is open up your `.gitconfig` and add a couple lines.  
 {% highlight shell %}
-[url "ssh://user@192.192.192.192:8910/path/to/your/git/"]
+[url "ssh://user@10.10.10.10:8910/path/to/your/git/"]
         insteadOf = yourserver://
 {% endhighlight %}  
 
 Of course, in this example replace:  
 
 user | : your username
-192.192.192.192   | : your server ip (or domain name if its configured
+10.10.10.10   | : your server ip (or domain name if its configured
 8910 | : your ssh port (which definitly isn't 22 right?)
 /path/to/your/git | : the path to where your git repositories sit on your server  
 yourserver:// | : whatever you want to use as a shortened url
