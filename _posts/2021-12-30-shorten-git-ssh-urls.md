@@ -22,7 +22,7 @@ All we need to do is open up your `.gitconfig` and add a couple lines.
 Of course, in this example replace:  
 
 user | : your username
-10.10.10.10   | : your server ip (or domain name if its configured
+10.10.10.10   | : your server ip (or domain name if its configured)
 8910 | : your ssh port (which definitly isn't 22 right?)
 /path/to/your/git | : the path to where your git repositories sit on your server  
 yourserver:// | : whatever you want to use as a shortened url
