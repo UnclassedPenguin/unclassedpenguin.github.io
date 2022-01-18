@@ -13,17 +13,26 @@ body {
 blockquote {
   font-style: italic;
   padding: 0 0 0 10px;
-  margin: 2rem;
+  margin: 2rem 1rem 2rem 1rem;
   //border-left: 2px solid #ccc;
 }
 
 .highlighter-rouge {
-  background-color: #4a4a4a;
+  background-color: #3c2d53;
   border-radius: 3px;
   padding: 2px 3px 2px 3px;
   //color: rgb(129, 210, 239) !important;
-  color: #99d2ee !important;
+  color: #eaf8ff !important;
 }
+
+//Old .highlighter-rouge colors. Grey background slightly blue text
+//.highlighter-rouge {
+  //background-color: #4a4a4a;
+  //border-radius: 3px;
+  //padding: 2px 3px 2px 3px;
+  ////color: rgb(129, 210, 239) !important;
+  //color: #99d2ee !important;
+//}
 
 code {
   //font-size: .9rem !important;
