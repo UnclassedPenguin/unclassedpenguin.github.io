@@ -4,7 +4,7 @@ title: ToDo
 ---
 
 
-<h2 class="randomcolor">To-Do on Site</h2>  
+<h3 class="randomcolor">To-Do on Site</h3>  
  This is just for my personal tracking. 
  Might as well be public, eh?
 

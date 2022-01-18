@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-<h1 class="randomcolor pb-3">About This Site</h1>
+<h3 class="randomcolor pb-3">About This Site</h3>
 
 <p> Hey, I’m Tyler. </p>
 <p> I am interested in technology of all sorts. Have a history working at a (mostly W)ISP and doing IT work, as well as splicing, and configuring the hardware for fiber optic internet.  </p>
