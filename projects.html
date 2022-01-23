@@ -8,8 +8,8 @@ permalink: /projects/
 
 {% for item in site.data.projects %}
 {% if item.projectName != nil and item.projectDescription != nil %}
-<div class="row pb-5">
-  <div class="card bg-dark border-0  mx-auto">
+<div class="row pb-3">
+  <div class="card bg-dark border-0 ">
     {% if item.projectImage != nil %}
     <img src="{{ item.projectImage }} " class="card-img-top w-100" alt="{{ item.projectImageAlt }}">
     {% endif %}
@@ -18,13 +18,13 @@ permalink: /projects/
       <p class="card-text"> {{ item.projectDescription }} </p>
       <div class="row">
         {% if item.projectGithub != nil %}
-        <div class="col-sm pb-2">
-          <a href="{{ item.projectGithub }}" class="btn btn-secondary text-white w-100" target="_blank">Source</a>
+        <div class="col-sm pb-2 text-center">
+          <a href="{{ item.projectGithub }}" class="btn btn-secondary text-white w-50" target="_blank">Source</a>
         </div>
         {% endif %}
         {% if item.projectURL != nil %}
-        <div class="col-sm">
-          <a href="{{ item.projectURL }}" class="btn btn-secondary text-white w-100" target="_blank">Check It Out</a>
+        <div class="col-sm text-center">
+          <a href="{{ item.projectURL }}" class="btn btn-secondary text-white w-50" target="_blank">Check It Out</a>
         </div>
         {% endif %}
       </div>
@@ -35,6 +35,7 @@ permalink: /projects/
     </div>
     {% endif %}
   </div>
+  <hr>
 </div>
 {% endif %}
 {% endfor %}

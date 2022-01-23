@@ -22,12 +22,14 @@
   projectDescription: This is a project to keep track of your score
                       in a game of hearts, written in javascript
 
-- projectName: 
-  projectImage:
-  photoBy: 
-  photoByURL: 
-  photoFrom:
-  photoFromURL:
-  projectGithub:
+- projectName: Password Checker 
+  projectImage: /assets/images/pexels-negative-space-97077.jpg
+  photoBy: Negative Space
+  photoByURL: https://www.pexels.com/@negativespace 
+  photoFrom: Pexels
+  photoFromURL: https://www.pexels.com
+  projectGithub: https://github.com/UnclassedPenguin/scripts/blob/master/passwordcheck.py
   projectURL:
-  projectDescription: 
+  projectDescription: A simple script written in python to check your passwords against
+                      the haveyoubeenpwned api to see if your passwords have shown up in
+                      any password leaks.
