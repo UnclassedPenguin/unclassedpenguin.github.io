@@ -1,18 +1,18 @@
-#- projectName: 
-  #projectImage: 
-  #projectImageURL: 
-  #photoBy: 
-  #photoByURL: 
-  #photoFrom: 
-  #photoFromURL: 
-  #projectGithub: 
-  #projectURL: 
-  #projectDescription: 
+# This is a blank template for what is available for each project. 
+# You don't have to use them all. Name and Description are required.
 
+#- projectName:
+  #projectImage:
+  #photoBy:
+  #photoByURL:
+  #photoFrom:
+  #photoFromURL:
+  #projectGithub:
+  #projectURL:
+  #projectDescription:
 
 - projectName: Hearts 
   projectImage: /assets/images/pexels-maksim-goncharenok-5605125.jpg
-  projectImageURL: 
   photoBy: Maksim Goncharenok
   photoByURL: https://www.pexels.com/@maksgelatin?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
   photoFrom: Pexels
@@ -20,14 +20,14 @@
   projectGithub: https://github.com/unclassedpenguin/hearts.git
   projectURL: https://unclassed.ca/hearts/
   projectDescription: This is a project to keep track of your score
-                      in a game of hearts.
-- projectName: Test
+                      in a game of hearts, written in javascript
+
+- projectName: 
   projectImage:
-  projectImageURL:
   photoBy: 
   photoByURL: 
   photoFrom:
   photoFromURL:
   projectGithub:
   projectURL:
-  projectDescription:
+  projectDescription: 

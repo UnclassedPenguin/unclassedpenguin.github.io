@@ -7,6 +7,7 @@ permalink: /projects/
 <h3 class="randomcolor text-center pb-3">Projects</h3>
 
 {% for item in site.data.projects %}
+{% if item.projectName != nil and item.projectDescription != nil %}
 <div class="row pb-5">
   <div class="card bg-dark border-0 w-50 mx-auto">
     {% if item.projectImage != nil %}
@@ -35,4 +36,6 @@ permalink: /projects/
     {% endif %}
   </div>
 </div>
+{% endif %}
 {% endfor %}
+
