@@ -9,7 +9,7 @@ permalink: /projects/
 {% for item in site.data.projects %}
 {% if item.projectName != nil and item.projectDescription != nil %}
 <div class="row pb-5">
-  <div class="card bg-dark border-0 w-50 mx-auto">
+  <div class="card bg-dark border-0  mx-auto">
     {% if item.projectImage != nil %}
     <img src="{{ item.projectImage }} " class="card-img-top w-100" alt="{{ item.projectImageAlt }}">
     {% endif %}
