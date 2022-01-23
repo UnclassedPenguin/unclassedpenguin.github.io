@@ -18,12 +18,12 @@ permalink: /projects/
       <p class="card-text"> {{ item.projectDescription }} </p>
       <div class="row">
         {% if item.projectGithub != nil %}
-        <div class="col-6">
+        <div class="col-sm pb-2">
           <a href="{{ item.projectGithub }}" class="btn btn-secondary text-white w-100" target="_blank">Source</a>
         </div>
         {% endif %}
         {% if item.projectURL != nil %}
-        <div class="col-6">
+        <div class="col-sm">
           <a href="{{ item.projectURL }}" class="btn btn-secondary text-white w-100" target="_blank">Check It Out</a>
         </div>
         {% endif %}
