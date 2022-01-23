@@ -9,9 +9,12 @@ permalink: /projects/
 {% for item in site.data.projects %}
 {% if item.projectName != nil and item.projectDescription != nil %}
 <div class="row pb-3">
-  <div class="card bg-dark border-0 ">
+  <div class="card bg-transparent border-0 ">
     {% if item.projectImage != nil %}
     <img src="{{ item.projectImage }} " class="card-img-top w-100" alt="{{ item.projectImageAlt }}">
+    {% if item.photoBy != nil %}
+    <p style="font-size:75%;">Photo by <a class="randomcolor" href="{{ item.photoByURL }}" target="_blank">{{item.photoBy}}</a> from <a class="randomcolor" href="{{ item.photoFromURL}}" target="_blank">{{item.photoFrom}}</a></p>
+    {% endif %}
     {% endif %}
     <div class="card-body">
       <h5 class="card-title"> {{ item.projectName }} </h5>
@@ -29,11 +32,6 @@ permalink: /projects/
         {% endif %}
       </div>
     </div>
-    {% if item.photoBy != nil %}
-    <div class="card-footer">
-      <p style="font-size:75%;">Photo by <a class="randomcolor" href="{{ item.photoByURL }}" target="_blank">{{item.photoBy}}</a> from <a class="randomcolor" href="{{ item.photoFromURL}}" target="_blank">{{item.photoFrom}}</a></p>
-    </div>
-    {% endif %}
   </div>
   <hr>
 </div>
