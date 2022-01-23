@@ -1,0 +1,38 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<h3 class="randomcolor text-center pb-3">Projects</h3>
+
+{% for item in site.data.projects %}
+<div class="row pb-5">
+  <div class="card bg-dark border-0 w-50 mx-auto">
+    {% if item.projectImage != nil %}
+    <img src="{{ item.projectImage }} " class="card-img-top w-100" alt="{{ item.projectImageAlt }}">
+    {% endif %}
+    <div class="card-body">
+      <h5 class="card-title"> {{ item.projectName }} </h5>
+      <p class="card-text"> {{ item.projectDescription }} </p>
+      <div class="row">
+        {% if item.projectGithub != nil %}
+        <div class="col-6">
+          <a href="{{ item.projectGithub }}" class="btn btn-secondary text-white w-100" target="_blank">Source</a>
+        </div>
+        {% endif %}
+        {% if item.projectURL != nil %}
+        <div class="col-6">
+          <a href="{{ item.projectURL }}" class="btn btn-secondary text-white w-100" target="_blank">Check It Out</a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% if item.photoBy != nil %}
+    <div class="card-footer">
+      <p style="font-size:75%;">Photo by <a class="randomcolor" href="{{ item.photoByURL }}" target="_blank">{{item.photoBy}}</a> from <a class="randomcolor" href="{{ item.photoFromURL}}" target="_blank">{{item.photoFrom}}</a></p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
