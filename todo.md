@@ -9,7 +9,8 @@ title: ToDo
  Might as well be public, eh?
 
 -----
-- [ ] Add Projects page
+- [x] Add Projects page
+  - Added project page and project.yaml to add new ones. pretty easy. 
 - [x] Implement sitemap
 - [x] Implement syntax highlighting
   - Maybe not done...I'm not really happy with the coloring of the syntax. Keep thinking on it. 
