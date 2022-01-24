@@ -5,10 +5,10 @@ author: tyler
 date: 2021-12-27
 categories: Linux 
 image: assets/images/zsh-screenshot.png
-imageauthor: tyler 
-imageauthorlink: https://unclassed.ca/about
-imagelink: https://unclassed.ca/2021/trying-out-zsh 
-imagelinkname: Unclassed.ca
+photoBy: tyler 
+photoByURL: https://unclassed.ca/about
+photoFrom: Unclassed.ca
+photoFromURL: https://unclassed.ca/2021/trying-out-zsh 
 ---
 
 

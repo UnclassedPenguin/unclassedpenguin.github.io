@@ -8,12 +8,12 @@ layout: default
     <h3 class="randomcolor">{{ page.title }}</h3>
     <p class="pb-4">{{ page.date | date_to_string }} - {{ page.author }}</p>
 
-    {% if page.image and page.imageauthor == False %}
+    {% if page.image and page.photoBy == False %}
     <img style="padding-bottom:2rem;" class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-    {% elsif page.image and page.imageauthor and page.imageauthorlink and page.imagelink and page.imagelinkname %}
+    {% elsif page.image and page.photoBy and page.photoByURL and page.photoFromURL and page.photoFromURL %}
     <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
 
-    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.imageauthorlink }}">{{ page.imageauthor }}</a> on <a class="randomcolor" href="{{ page.imagelink }}">{{ page.imagelinkname }}</a></div>
+    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}">{{ page.photoBy }}</a> from <a class="randomcolor" href="{{ page.photoFromURL }}">{{ page.photoFrom }}</a></div>
     {% endif %}
 
     {{ content }}

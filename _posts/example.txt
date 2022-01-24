@@ -5,10 +5,10 @@ author: tyler
 date: 2021-12-22
 categories: Jekyll
 image: assets/images/5.jpg
-imageauthor: 
-imageauthorlink:
-imagelink:
-imagelinkname:
+photoBy: 
+photoByURL:
+photoFrom:
+photoFromURL:
 ---
 
 [link](url){:target="_blank"}

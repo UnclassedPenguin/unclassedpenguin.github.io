@@ -3,10 +3,10 @@ layout: post
 title: "Spacemacs as a Main Text Editor"
 author: tyler
 image: assets/images/Spacemacs-screenshot-768x421.png
-imageauthor: Tyler
-imageauthorlink: https://unclassed.ca
-imagelink: https://unclassed.ca
-imagelinkname: unclassed.ca
+photoBy: Tyler
+photoByURL: https://unclassed.ca
+photoFrom: unclassed.ca
+photoFromURL: https://unclassed.ca
 date: 2018-12-9
 categories: Programming
 ---

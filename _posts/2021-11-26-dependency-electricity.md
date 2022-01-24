@@ -5,10 +5,10 @@ author: tyler
 date: 2021-11-26
 categories: Thoughts
 image: assets/images/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg
-imageauthor: Fré Sonneveld
-imageauthorlink: https://unsplash.com/@fresonneveld?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-imagelink: https://unsplash.com/s/photos/electricity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-imagelinkname: Unsplash
+photoBy: Fré Sonneveld
+photoByURL: https://unsplash.com/@fresonneveld?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+photoFrom: Unsplash
+photoFromURL: https://unsplash.com/s/photos/electricity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 ---
 
 
