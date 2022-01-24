@@ -3,6 +3,10 @@ layout: post
 title: "Change Colour for Ubuntu 18.04 Splash Screen, Login and Grub [Manually]"
 author: tyler
 image: assets/images/ubuntu-logo-768x433.jpg
+photoBy: tyler
+photoByURL: https://unclassed.ca/about/
+photoFrom: unclassed.ca
+photoFromURL: https://unclassed.ca/about/
 date: 2019-01-19
 categories: Ubuntu
 ---
