@@ -1,6 +1,59 @@
 ---
 layout: default
 ---
+{% if page.url contains "draft" %}
+<div class="row">
+  <div class="col-md-3">
+  </div>
+  <div class="pt-3 col-md-6 pb-2 mb-4 border-bottom">
+    <h3 class="randomcolor">{{ page.title }}</h3>
+    <p class="pb-4">{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+    {% if page.image and page.photoBy == False %}
+    <img style="padding-bottom:2rem;" class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+    {% elsif page.image and page.photoBy and page.photoByURL and page.photoFromURL and page.photoFromURL %}
+    <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+
+    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}">{{ page.photoBy }}</a> from <a class="randomcolor" href="{{ page.photoFromURL }}">{{ page.photoFrom }}</a></div>
+    {% endif %}
+
+    <h5>Coming Soon!</h5>
+    <p>Be sure to check back soon!</p>
+    <div class="pb-3 text-center">
+      {% if post %}
+      {% assign categories = post.categories %}
+      {% else %}
+      {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="randomcolor btn btn-outline-light btn-sm">{{category}}</a>
+      {% endfor %}
+    </div>
+
+  </div>
+  <div class="col-md-3">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-3">
+  </div>
+  <div class="col-md-3">
+    {% if page.previous.url %}
+    <a class="randomcolorheader" href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </div>
+  <div class="col-md-3" style="text-align:right;">
+    {% if page.next.url %}
+    <a class="randomcolorheader" href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+    {% endif %}
+  </div>
+  <div class="col-md-3">
+  </div>
+</div>
+
+{% else %}
+
 <div class="row">
   <div class="col-md-3">
   </div>
@@ -50,4 +103,4 @@ layout: default
   </div>
 </div>
 
-
+{% endif %}
