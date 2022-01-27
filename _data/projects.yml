@@ -33,3 +33,15 @@
   projectDescription: A simple script written in python to check your passwords against
                       the haveyoubeenpwned api to see if your passwords have shown up in
                       any password leaks.
+
+- projectName: Animal Tracker
+  projectImage:
+  photoBy:
+  photoByURL:
+  photoFrom:
+  photoFromURL:
+    projectGithub: https://github.com/UnclassedPenguin/AnimalTracker
+  projectURL:
+  projectDescription: Program for keeping track of animals, a basic herd management software. Keep track of animal body condition, weight, parents, children, and more.
+
+
