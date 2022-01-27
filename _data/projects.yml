@@ -35,11 +35,11 @@
                       any password leaks.
 
 - projectName: Animal Tracker
-  projectImage:
-  photoBy:
-  photoByURL:
-  photoFrom:
-  photoFromURL:
+  projectImage: /assets/images/pexels-nicky-pe-7377311.jpg
+  photoBy: Nicky Pe
+  photoByURL: https://www.pexels.com/@nicky-pe-36426242
+  photoFrom: Pexels
+  photoFromURL: https://www.pexels.com
   projectGithub: https://github.com/UnclassedPenguin/AnimalTracker
   projectURL:
   projectDescription: Program for keeping track of animals, a basic herd management software. Keep track of animal body condition, weight, parents, children, and more.
