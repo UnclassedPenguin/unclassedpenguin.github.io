@@ -10,7 +10,7 @@ In my <a class="randomcolor" href="https://unclassed.ca/2019/01/19/change-ubuntu
 <!--more-->
 I can now provide you with this script to use on your machine to easily change these colours.
 
-To use it,<a class="randomcolor" href="https://raw.githubusercontent.com/UnclassedPenguin/scripts/master/UbuntuSplashColor.py" target="_blank" >go here</a> and copy the text to a file with a name of your choice, ending in ‘.py’.
+To use it, <a class="randomcolor" href="https://raw.githubusercontent.com/UnclassedPenguin/scripts/master/UbuntuSplashColor.py" target="_blank" >go here</a> and copy the text to a file with a name of your choice, ending in ‘.py’.
 
 Alternatively, use this command:
 
