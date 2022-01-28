@@ -17,10 +17,11 @@ title: ToDo
 - [ ] SEO
   - [ ] Research SEO plugin for Jekyll
   - [x] Implement jekyll-seo-tag Plugin
-- [ ] Search
-  - [ ] Research search (lawl) (lunr perhaps?)
-  - [ ] Implement search
-- [ ] Implement categories
+- [x] Search
+  - [x] Research search (lawl) (lunr perhaps?)
+  - [x] Implement search
+    - I ended up going with [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search){:class="randomcolor" target="_blank"}<!--_--> following [this tutorial](https://blog.webjeda.com/instant-jekyll-search/){:class="randomcolor" target="_blank"}<!--_-->
+- [x] Implement categories
   - [ ] Look into jekyll-archives
   - [x] Categories page
     - /categories is live. Not sure I need archives?
@@ -37,5 +38,5 @@ title: ToDo
   - (I added excerpt_separator to _config.yml. as well as edited blog.html to add button beneath excerpt) 
 - [x] Style blockquotes  
   - All I did was italic and padding left/right
-- [ ] Test :)
+- [x] Test :)
   - Thing 2
