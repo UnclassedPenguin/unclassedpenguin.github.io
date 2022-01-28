@@ -30,5 +30,6 @@ function setRandomHeaderColor() {
 	r.style.setProperty('--rand', colors[Math.floor(Math.random() * colors.length)])
 }
 
+
 setRandomLinkColor();
 setRandomHeaderColor();
