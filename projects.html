@@ -18,7 +18,7 @@ permalink: /projects/
     {% endif %}
     <div class="card-body">
       {% if item.projectGithub != nil %}
-      <h5 class="randomcolor card-title"><a href="{{ item.projectGithub }}" target="_blank"> {{ item.projectName }} </a></h5>
+      <h5 class="card-title"><a class="randomcolor" href="{{ item.projectGithub }}" target="_blank"> {{ item.projectName }} </a></h5>
       {% else %}
       <h5 class="randomcolor card-title"> {{ item.projectName }} </h5>
       {% endif %}
