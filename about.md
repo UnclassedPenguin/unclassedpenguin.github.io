@@ -26,6 +26,10 @@ Happy Coding :)
 
 This site is made using [Jekyll](https://jekyllrb.com/){:class="randomcolor" target="_blank"}<!--_--> and [Bootstrap](https://getbootstrap.com/){:class="randomcolor" target="_blank"}<!--_-->. It's hosted on [GitHub](https://github.com){:class="randomcolor" target="_blank"}<!--_-->([source](https://github.com/UnclassedPenguin/unclassedpenguin.github.io){:class="randomcolor" target="_blank"}<!--_-->) using [GitHub Pages](https://docs.github.com/en/pages){:class="randomcolor" target="_blank"}<!--_-->.  
 
+I'm quite happy with this build for a blog. I got tired of self-hosting a blog with Wordpress and dealing with the constant bot attacks. Wordpress is a bit overkill I think if all you want is a static blog.
+
+
+<h3 class="randomcolor pb-3">My Setup</h3>
+
 I run linux on all of my computers, mainly [Ubuntu](https://ubuntu.com/){:class="randomcolor" target="_blank"}<!--_-->. I have tried all sorts of different distros and always end up back at Ubuntu. Currently on my main laptop I use Ubuntu 20.04 with [i3wm](https://i3wm.org/){:class="randomcolor" target="_blank"}<!--_-->.  
 
-I'm quite happy with this build for a blog. I got tired of self-hosting a blog with Wordpress and dealing with the constant bot attacks. Wordpress is a bit overkill I think if all you want is a static blog.
