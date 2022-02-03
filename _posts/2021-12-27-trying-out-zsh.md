@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Trying Out Zsh (and Oh My Zsh)
-author: tyler
+author: Tyler
 date: 2021-12-27
 categories: Linux 
 image: assets/images/zsh-screenshot.png
-photoBy: tyler 
+photoBy: Tyler 
 photoByURL: https://unclassed.ca/about
 photoFrom: Unclassed.ca
 photoFromURL: https://unclassed.ca/2021/trying-out-zsh 

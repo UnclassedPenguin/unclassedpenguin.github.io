@@ -1,7 +1,8 @@
 ---
 layout: post
-author: tyler
+author: Tyler
 title: This Is A Test
+date: 2021-12-13
 ---
 
 This is a test page where I will add some random elements and such to see how they look. This page is likely to change as I add more things to try out. Thanks!

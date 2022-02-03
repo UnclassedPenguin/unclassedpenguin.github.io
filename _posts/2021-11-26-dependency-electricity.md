@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our Dependency on Electricity"
-author: tyler
+author: Tyler
 date: 2021-11-26
 categories: Thoughts
 image: assets/images/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg

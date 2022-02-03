@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Git Commands Cheat Sheet"
-author: tyler
-image:
+author: Tyler
+date: 2021-11-24
 categories: [Git, Cheat Sheet]
 ---
 #### Aliases

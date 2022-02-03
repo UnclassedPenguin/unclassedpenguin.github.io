@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Vim as a Main Text Editor
-author: tyler
+author: Tyler
 date: 2021-12-27
 categories: Vim 
 image: assets/images/vim-screenshot.png
-photoBy: tyler
+photoBy: Tyler
 photoByURL: https://unclassed.ca/about
 photoFrom: unclassed.ca
 photoFromURL: https://unclassed.ca/about

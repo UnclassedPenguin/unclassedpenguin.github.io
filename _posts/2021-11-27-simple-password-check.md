@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Simple Password Check"
-author: tyler
+author: Tyler
 categories: Security
 ---
 

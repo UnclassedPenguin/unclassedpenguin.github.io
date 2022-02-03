@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shorten Git SSH URL 
-author: tyler
+author: Tyler
 date: 2021-12-30
 categories: Git
 ---
