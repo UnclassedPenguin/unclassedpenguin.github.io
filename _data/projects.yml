@@ -22,6 +22,18 @@
   projectDescription: This is a project to keep track of your score
                       in a game of hearts, written in javascript
 
+- projectName: Bingo
+  projectImage: /assets/images/mick-haupt-3UbsiRcrFV4-unsplash.jpg
+  photoBy: Mick Haupt
+  photoByURL: https://unsplash.com/@rocinante_11
+  photoFrom: Unsplash
+  photoFromURL: https://unsplash.com
+  projectGithub: https://github.com/unclassedpenguin/bingo
+  projectURL: https://unclassed.ca/bingo
+  projectDescription: This is a way to play bingo with your own items.
+                      Enter a list of things and it will generate a 
+                      random board for you.
+
 - projectName: Password Checker 
   projectImage: /assets/images/pexels-negative-space-97077.jpg
   photoBy: Negative Space

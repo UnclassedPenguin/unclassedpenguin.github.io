@@ -14,7 +14,7 @@ layout: default
     {% elsif page.image and page.photoBy and page.photoByURL and page.photoFromURL and page.photoFromURL %}
     <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
 
-    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}">{{ page.photoBy }}</a> from <a class="randomcolor" href="{{ page.photoFromURL }}">{{ page.photoFrom }}</a></div>
+    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}" target="_blank">{{ page.photoBy }}</a> from <a class="randomcolor" href="{{ page.photoFromURL }}" target="_blank">{{ page.photoFrom }}</a></div>
     {% endif %}
 
     <h5>Coming Soon!</h5>
