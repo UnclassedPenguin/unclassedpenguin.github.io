@@ -11,7 +11,17 @@ permalink: /projects/
 <div class="row pb-3">
   <div class="card bg-transparent border-0 ">
     {% if item.projectImage %}
-    <img src="{{ item.projectImage }} " class="card-img-top w-100" alt="{{ item.projectImageAlt }}">
+      {% if item.projectGithub %}
+        <a class="randomcolor" href="{{ item.projectGithub }}" target="_blank">
+          <img src="{{ item.projectImage }} " class="card-img-top w-100" alt="{{ item.projectImageAlt }}">
+        </a>
+      {% elsif item.projectURL %}
+        <a class="randomcolor" href="{{ item.projectURL }}" target="_blank">
+          <img src="{{ item.projectImage }} " class="card-img-top w-100" alt="{{ item.projectImageAlt }}">
+        </a>
+      {% else %}
+        <img src="{{ item.projectImage }} " class="card-img-top w-100" alt="{{ item.projectImageAlt }}">
+      {% endif %}
     {% if item.photoBy %}
     <p style="font-size:75%;">Photo by <a class="randomcolor" href="{{ item.photoByURL }}" target="_blank">{{item.photoBy}}</a> from <a class="randomcolor" href="{{ item.photoFromURL}}" target="_blank">{{item.photoFrom}}</a></p>
     {% endif %}
