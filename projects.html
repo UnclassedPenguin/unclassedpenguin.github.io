@@ -7,29 +7,31 @@ permalink: /projects/
 <h3 class="randomcolor text-center pb-3">Projects</h3>
 
 {% for item in site.data.projects %}
-{% if item.projectName != nil and item.projectDescription != nil %}
+{% if item.projectName and item.projectDescription %}
 <div class="row pb-3">
   <div class="card bg-transparent border-0 ">
-    {% if item.projectImage != nil %}
+    {% if item.projectImage %}
     <img src="{{ item.projectImage }} " class="card-img-top w-100" alt="{{ item.projectImageAlt }}">
-    {% if item.photoBy != nil %}
+    {% if item.photoBy %}
     <p style="font-size:75%;">Photo by <a class="randomcolor" href="{{ item.photoByURL }}" target="_blank">{{item.photoBy}}</a> from <a class="randomcolor" href="{{ item.photoFromURL}}" target="_blank">{{item.photoFrom}}</a></p>
     {% endif %}
     {% endif %}
     <div class="card-body">
-      {% if item.projectGithub != nil %}
+      {% if item.projectGithub %}
       <h5 class="card-title"><a class="randomcolor" href="{{ item.projectGithub }}" target="_blank"> {{ item.projectName }} </a></h5>
+      {% elsif item.projectURL %}
+      <h5 class="card-title"><a class="randomcolor" href="{{ item.projectURL }}" target="_blank"> {{ item.projectName }} </a></h5>
       {% else %}
       <h5 class="randomcolor card-title"> {{ item.projectName }} </h5>
       {% endif %}
       <p class="card-text"> {{ item.projectDescription }} </p>
       <div class="row">
-        {% if item.projectGithub != nil %}
+        {% if item.projectGithub %}
         <div class="col-sm pb-2 text-center">
           <a href="{{ item.projectGithub }}" class="btn btn-secondary text-white w-50" target="_blank">Source</a>
         </div>
         {% endif %}
-        {% if item.projectURL != nil %}
+        {% if item.projectURL %}
         <div class="col-sm text-center">
           <a href="{{ item.projectURL }}" class="btn btn-secondary text-white w-50" target="_blank">Check It Out</a>
         </div>
