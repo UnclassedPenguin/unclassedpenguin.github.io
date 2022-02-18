@@ -3,6 +3,7 @@
 
 #- projectName:
   #projectImage:
+  #projectImageAlt:
   #photoBy:
   #photoByURL:
   #photoFrom:
@@ -13,6 +14,7 @@
 
 - projectName: Hearts 
   projectImage: /assets/images/pexels-maksim-goncharenok-5605125.jpg
+  projectImageAlt: Heart
   photoBy: Maksim Goncharenok
   photoByURL: https://www.pexels.com/@maksgelatin?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
   photoFrom: Pexels
@@ -24,6 +26,7 @@
 
 - projectName: Bingo
   projectImage: /assets/images/mick-haupt-3UbsiRcrFV4-unsplash.jpg
+  projectImageAlt: Bingo Pieces
   photoBy: Mick Haupt
   photoByURL: https://unsplash.com/@rocinante_11
   photoFrom: Unsplash
@@ -34,8 +37,21 @@
                       Enter a list of things and it will generate a 
                       random board for you.
 
+- projectName: TVK Forge
+  projectImage: /assets/images/tvk-screenshot.png
+  projectImageAlt: TVK Forge website
+  photoBy: Tyler
+  photoByURL: https://unclassed.ca/about/
+  photoFrom: Unclassed.ca
+  photoFromURL: https://unclassed.ca/about/
+  projectGithub:
+  projectURL: https://tvkforge.com
+  projectDescription: This is a website for my forging. Built with Jekyll and Bootstrap and 
+                      the Theme is based on this blog theme. 
+
 - projectName: Password Checker 
   projectImage: /assets/images/pexels-negative-space-97077.jpg
+  projectImageAlt: Cyber Spacey Image
   photoBy: Negative Space
   photoByURL: https://www.pexels.com/@negativespace 
   photoFrom: Pexels
@@ -48,6 +64,7 @@
 
 - projectName: Animal Tracker
   projectImage: /assets/images/pexels-nicky-pe-7377311.jpg
+  projectImageAlt: Cute baby goat on rock
   photoBy: Nicky Pe
   photoByURL: https://www.pexels.com/@nicky-pe-36426242
   photoFrom: Pexels
