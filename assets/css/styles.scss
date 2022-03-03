@@ -6,6 +6,11 @@
   --rand: #98b8eb;
 }
 
+.randomcolorheader {
+  color: var(--rand);
+  text-decoration: none;
+}
+
 body {
   font-family: arial;
 }
@@ -63,10 +68,7 @@ pre {
   margin-bottom: -0.5em;
 }
 
-.randomcolorheader {
-  color: var(--rand);
-  text-decoration: none;
-}
+
 
 .randomcolor, h2 a, p a {
   text-decoration: none;
