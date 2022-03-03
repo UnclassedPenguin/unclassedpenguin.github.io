@@ -2,7 +2,7 @@
 layout: post
 title: Vim as a Main Text Editor
 author: Tyler
-date: 2021-12-27
+date: 2022-03-03
 categories: Vim 
 image: assets/images/vim-screenshot.png
 photoBy: Tyler
