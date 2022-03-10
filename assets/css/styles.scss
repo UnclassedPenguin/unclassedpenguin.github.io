@@ -68,7 +68,44 @@ pre {
   margin-bottom: -0.5em;
 }
 
+#myBtn {
+  //display:none;
+  opacity:0;
+  moz-opacity:0;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: 2px solid grey;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 8px 10px 3px 10px;
+  border-radius: 7px;
+  font-size: 18px;
+}
 
+//#myBtn:hover {
+  //background-color: #555;
+  //opacity: 0.5;
+//}
+
+.arrow {
+  border: solid var(--rand);
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
 
 .randomcolor, h2 a, p a {
   text-decoration: none;
