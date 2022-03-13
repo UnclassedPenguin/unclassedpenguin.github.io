@@ -7,8 +7,8 @@ categories: Linux
 image: assets/images/zsh-screenshot.png
 photoBy: Tyler 
 photoByURL: https://unclassed.ca/about
-photoFrom: Unclassed.ca
-photoFromURL: https://unclassed.ca/2021/trying-out-zsh 
+photoFrom: unclassed.ca
+photoFromURL: https://unclassed.ca/about
 ---
 
 

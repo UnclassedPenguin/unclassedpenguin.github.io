@@ -4,9 +4,9 @@ title: "Spacemacs as a Main Text Editor"
 author: Tyler
 image: assets/images/Spacemacs-screenshot-768x421.png
 photoBy: Tyler
-photoByURL: https://unclassed.ca
+photoByURL: https://unclassed.ca/about/
 photoFrom: unclassed.ca
-photoFromURL: https://unclassed.ca
+photoFromURL: https://unclassed.ca/about/
 date: 2018-12-09
 categories: Programming
 ---
