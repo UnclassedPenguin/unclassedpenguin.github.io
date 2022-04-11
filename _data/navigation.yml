@@ -10,5 +10,7 @@
   link: /todo/
 - name: Search
   link: /search/
+- name: Docs
+  link: https://docs.unclassed.ca
 - name: Contact
   link: https://github.com/UnclassedPenguin/UnclassedPenguin/discussions
