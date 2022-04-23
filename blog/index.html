@@ -9,12 +9,15 @@ title: Blog
   </div>
   <div class="col-md-8 col-lg-6 col-xxl-4 py-3 text-white">
     {% if post.url contains "draft" %}
-      <h3><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.date | date_to_string}} - {% include reading-time.html %} - {{ post.author }} </p>
+      <h3 class="text-center"><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="text-center" style="margin-bottom:0;">{{ post.date | date_to_string}} - {{ post.author }} </p>
+      <p style="font-size:80%" class="text-center">{% include reading-time.html %}</p>
       <h5>Coming Soon!</h5>
     {% else %}
-      <h3><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.date | date_to_string}} - {% include reading-time.html %} - {{ post.author }} </p>
+      <h3 class="text-center"><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="text-center" style="margin-bottom:0;">{{ post.date | date_to_string}} - {{ post.author }} </p>
+      <p style="font-size:80%" class="text-center">{% include reading-time.html %}</p>
+ 
       {{ post.excerpt }}
     {% endif %}
     <div class="row justify-content-center">
