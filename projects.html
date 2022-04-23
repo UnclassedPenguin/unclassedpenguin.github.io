@@ -28,11 +28,11 @@ permalink: /projects/
     {% endif %}
     <div class="card-body">
       {% if item.projectGithub %}
-      <h5 class="card-title text-center"><a class="randomcolor" href="{{ item.projectGithub }}" target="_blank"> {{ item.projectName }} </a></h5>
+      <h4 class="card-title text-center"><a class="randomcolor" href="{{ item.projectGithub }}" target="_blank"> {{ item.projectName }} </a></h4>
       {% elsif item.projectURL %}
-      <h5 class="card-title text-center"><a class="randomcolor" href="{{ item.projectURL }}" target="_blank"> {{ item.projectName }} </a></h5>
+      <h4 class="card-title text-center"><a class="randomcolor" href="{{ item.projectURL }}" target="_blank"> {{ item.projectName }} </a></h4>
       {% else %}
-      <h5 class="randomcolor card-title text-center"> {{ item.projectName }} </h5>
+      <h4 class="randomcolor card-title text-center"> {{ item.projectName }} </h4>
       {% endif %}
       <p class="card-text"> {{ item.projectDescription }} </p>
       <div class="row">
