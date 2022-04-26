@@ -139,7 +139,13 @@ text-decoration: none;
 }
  */
 
-a {color:white;}
+a {
+  color:white;
+}
+
+a:active {
+  color:grey;
+}
 
 h2 a:hover,
 h4 a:hover,
