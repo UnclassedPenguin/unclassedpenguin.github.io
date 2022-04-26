@@ -7,7 +7,7 @@ title: Blog
 <div class="row">
   <div class="col-md-2 col-lg-3 col-xxl-4">
   </div>
-  <div class="col-md-8 col-lg-6 col-xxl-4 py-3 text-white">
+  <div class="blog-excerpt col-md-8 col-lg-6 col-xxl-4 text-white">
     {% if post.url contains "draft" %}
       <h3 class="text-center"><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       <p class="text-center" style="margin-bottom:0;">{{ post.date | date_to_string}} - {{ post.author }} </p>
@@ -30,6 +30,7 @@ title: Blog
       <div class="col-md-4">
       </div>
     </div>
+    <hr>
   </div>
   <div class="col-md-2 col-lg-3 col-xxl-4">
   </div>

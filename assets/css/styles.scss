@@ -22,6 +22,22 @@ blockquote {
   //border-left: 2px solid #ccc;
 }
 
+hr {
+  height: 2px !important;
+  color: white;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+footer {
+  padding-bottom: 2rem !important;
+}
+
+.blog-excerpt {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
 #results-container {
   padding-left: 0 !important;
 }
@@ -212,6 +228,11 @@ html, body, .wrapper {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.card-body {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
 }
 
 .card-img-top {
