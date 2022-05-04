@@ -56,7 +56,7 @@
   photoByURL: https://www.pexels.com/@negativespace 
   photoFrom: Pexels
   photoFromURL: https://www.pexels.com
-  projectGithub: https://github.com/UnclassedPenguin/scripts/blob/master/passwordcheck.py
+  projectGithub: https://github.com/UnclassedPenguin/scripts/tree/master/passwordcheck 
   projectURL:
   projectDescription: A simple script written in python to check your passwords against
                       the haveyoubeenpwned api to see if your passwords have shown up in
