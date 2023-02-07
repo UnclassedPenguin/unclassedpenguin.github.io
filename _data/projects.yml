@@ -11,6 +11,17 @@
   #projectGithub:
   #projectURL:
   #projectDescription:
+  
+- projectName: Bales
+  projectImage: /assets/images/nick-fewings-A6Lo4apGrcU-unsplash.jpg
+  projectImageAlt: Field of Bales of Hay
+  photoBy: Nick Fewings
+  photoByURL: https://unsplash.com/@jannerboy62
+  photoFrom: Unsplash
+  photoFromURL: https://unsplash.com
+  projectGithub: https://github.com/unclassedpenguin/bales
+  projectURL:
+  projectDescription: A Program for keeping track of the number of bales of hay you have fed. Useful information to see how many bales your animals take to get through winter.  
 
 - projectName: Hearts 
   projectImage: /assets/images/pexels-maksim-goncharenok-5605125.jpg
