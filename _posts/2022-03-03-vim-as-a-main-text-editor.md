@@ -4,6 +4,7 @@ title: Vim as a Main Text Editor
 author: Tyler
 date: 2022-03-03
 categories: Vim 
+draft: true
 image: assets/images/vim-screenshot.png
 photoBy: Tyler
 photoByURL: https://unclassed.ca/about
