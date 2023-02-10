@@ -16,6 +16,7 @@ photoFromURL: https://unsplash.com/
 
 It's winter here on our farm in a remote area of Northern Alberta, Canada. We have snow on the ground outside, and today as I'm writing this we are fortunate that some wind has brought us warm weather. Currently it is about 2 degrees celsius outside. Of course, there are two sides to everything, and this same wind that brings us some enjoyable temperatures has also taken out a powerline somewhere that has taken out the power.  
 <!--more-->
+
 Things were fine when I went outside this morning to do chores. Feed the goats, feed the chickens, check on the cows and the horse, give our guardian dogs a pat on the head and a good morning. As I finished up and came into the house though, I noticed that the light in our entryway, which is never turned off, was out, and I thought to myself, "Huh what are the odds the bulb burned out while I was out doing chores."
 
 As I came in though, taking off my boots and my coat, I went to rinse out the bottle I use to feed our bottle-fed calf, and as I turned the faucet expecting water to come out, nothing did. That's when I realised that the bulb hadn't burned out, our power was out. 
