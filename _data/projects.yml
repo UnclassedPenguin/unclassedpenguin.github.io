@@ -21,7 +21,7 @@
   photoFromURL: https://unsplash.com
   projectGithub: https://github.com/unclassedpenguin/bales
   projectURL:
-  projectDescription: A Program for keeping track of the number of bales of hay you have fed. Useful information to see how many bales your animals take to get through winter.  
+  projectDescription: A Program for keeping track of the number of bales of hay you have fed. Useful information to see how many bales your animals take to get through winter. (cli, written in Go)
 
 - projectName: Hearts 
   projectImage: /assets/images/pexels-maksim-goncharenok-5605125.jpg
@@ -33,7 +33,7 @@
   projectGithub: https://github.com/unclassedpenguin/hearts.git
   projectURL: https://unclassed.ca/hearts/
   projectDescription: This is a project to keep track of your score
-                      in a game of hearts, written in javascript
+                      in a game of hearts, written in javascript.
 
 - projectName: Bingo
   projectImage: /assets/images/mick-haupt-3UbsiRcrFV4-unsplash.jpg
