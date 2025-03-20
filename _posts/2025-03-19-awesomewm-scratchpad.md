@@ -34,8 +34,7 @@ The first part we need to create is a function that handles the three possible s
 
 So, to do that I added to my `~/.config/awesome/rc.lua`:
 
-{% highlight %}
-
+```
 -- Scratchpad
 -- This is for the scratchpad, that opens a urxvt window that can be brought forward and hidden into the background.
 -- There is a rule set further on, and a key binding set as well. Search "Scratchpad" to find them.
@@ -68,7 +67,7 @@ end
 
 -- End Scratchpad
 
-{% endhighlight %}
+```
 
 I guess at this point I should mention that my main terminal is [URxvt](https://wiki.archlinux.org/title/Rxvt-unicode){:class="randomcolor" target="_blank"}<!--_-->. So, the line that launches the terminal is near the end where it says `awful.spawn("urxvt -name scratchpad -geometry 120x35", false)`. The important part here is that it names the window "scratchpad". That makes it identifiable so it can be manipulated by the window manager. In theory, you should be able to do this with other terminals as well, if you can name them. Maybe something like `"gnome-terminal --title='scratchpad'"`.  
 
@@ -78,8 +77,7 @@ Another important note to make, is that the same line is also where you can chan
 
 Now we need to add the rules for this window. It should always show on top, no taskbar, should be a floating window, etc. To do this, search your `rc.lua` for "Rules" And you should find a bit of code that looks like:
 
-{% highlight %}
-
+```
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
 
@@ -89,12 +87,11 @@ awful.rules.rules = {
 
 }
 
-{% endhighlight %}
+```
 
 And we just need to add a rule for scratchpad window, so just add it to the top, so it looks something like:  
 
-{% highlight %}
-
+```
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
 
@@ -116,8 +113,7 @@ awful.rules.rules = {
     (THE REST OF YOUR RULES HERE)
 
 }
-
-{% endhighlight %}
+```
 
 Now, if you aren't using URxvt like I am, you would need to change the "class". You can use xprop to find out the window class. 
 
