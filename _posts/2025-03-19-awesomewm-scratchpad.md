@@ -36,7 +36,7 @@ So, to do that I added to my `~/.config/awesome/rc.lua`:
 
 {% highlight lua %}
 
---{{{ Scratchpad
+-- Scratchpad
 -- This is for the scratchpad, that opens a urxvt window that can be brought forward and hidden into the background.
 -- There is a rule set further on, and a key binding set as well. Search "Scratchpad" to find them.
 
@@ -66,7 +66,7 @@ local function toggle_scratchpad()
   end
 end
 
---}}} End Scratchpad
+-- End Scratchpad
 
 {% endhighlight %}
 
@@ -80,7 +80,6 @@ Now we need to add the rules for this window. It should always show on top, no t
 
 {% highlight lua %}
 
--- {{{ Rules
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
 
@@ -96,7 +95,6 @@ And we just need to add a rule for scratchpad window, so just add it to the top,
 
 {% highlight lua %}
 
--- {{{ Rules
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
 
