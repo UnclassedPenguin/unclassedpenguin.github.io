@@ -4,7 +4,6 @@ title: AwesomeWM Scratchpad
 author: Tyler
 date: 2025-03-19
 categories: Linux
-draft: false
 image: assets/images/awesomewm-scratchpad.png
 photoBy: Tyler
 photoByURL: https://unclassed.ca/about
