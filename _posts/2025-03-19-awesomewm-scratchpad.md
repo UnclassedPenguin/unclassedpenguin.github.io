@@ -34,8 +34,8 @@ The first part we need to create is a function that handles the three possible s
 
 So, to do that I added to my `~/.config/awesome/rc.lua`:
 
-```
--- {{{ Scratchpad
+{% highlight lua %}
+-- Scratchpad
 -- This is for the scratchpad, that opens a urxvt window that can be brought forward and hidden into the background.
 -- There is a rule set further on, and a key binding set as well. Search "Scratchpad" to find them.
 
@@ -65,9 +65,9 @@ local function toggle_scratchpad()
   end
 end
 
--- }}} End Scratchpad
+-- End Scratchpad
 
-```
+{% endhighlight %}
 
 I guess at this point I should mention that my main terminal is [URxvt](https://wiki.archlinux.org/title/Rxvt-unicode){:class="randomcolor" target="_blank"}<!--_-->. So, the line that launches the terminal is near the end where it says `awful.spawn("urxvt -name scratchpad -geometry 120x35", false)`. The important part here is that it names the window "scratchpad". That makes it identifiable so it can be manipulated by the window manager. In theory, you should be able to do this with other terminals as well, if you can name them. Maybe something like `"gnome-terminal --title='scratchpad'"`.  
 
@@ -77,8 +77,8 @@ Another important note to make, is that the same line is also where you can chan
 
 Now we need to add the rules for this window. It should always show on top, no taskbar, should be a floating window, etc. To do this, search your `rc.lua` for "Rules" And you should find a bit of code that looks like:
 
-```
--- {{{ Rules
+{% highlight lua %}
+
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
 
@@ -88,12 +88,12 @@ awful.rules.rules = {
 
 }
 
-```
+{% endhighlight %}
 
 And we just need to add a rule for scratchpad window, so just add it to the top, so it looks something like:  
 
-```
--- {{{ Rules
+{% highlight lua %}
+
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
 
@@ -115,7 +115,8 @@ awful.rules.rules = {
     (THE REST OF YOUR RULES HERE)
 
 }
-```
+
+{% endhighlight %}
 
 Now, if you aren't using URxvt like I am, you would need to change the "class". You can use xprop to find out the window class. 
 
@@ -123,12 +124,13 @@ Now, if you aren't using URxvt like I am, you would need to change the "class". 
 
 Now all thats left is to add a keybind that can actually activate the scratchpad. Scroll to the section of your rc.lua where your keybinds are, and add:
 
-```
+{% highlight lua %}
+
     -- Scratchpad keybinding
     awful.key({ modkey },            "a", toggle_scratchpad,
               {description = "toggle scratchpad", group = "custom" }),
 
-```
+{% endhighlight %}
 
 In this case, I am using modkey+a to toggle the scratchpad, although this is just my setup. You can change it to whatever you like.   
 
@@ -138,20 +140,20 @@ Now, you should be able to save the config file, restart awesomewm and use the k
 
 Now, for me, I ran into a strange error where the window was using some of my config from `~/.Xresources`, but not others. It was a really strange issue that took me awhile to figure out. What it turned out to be is that because it has the name "scratchpad", you have to make sure that in your Xresouces all of the paramaters are set to *.whatever. <!--*--> So for me, I had 
 
-```
+{% highlight shell %}
     urxvt.font:        xft:monospace:pixelsize=18
     urxvt.letterSpace: -2
     urxvt.scrollBar:   false
 
-```
+{% endhighlight %}
 
 I needed to change this to:
 
-```    
+{% highlight shell %}
     *.font:        xft:monospace:pixelsize=18
     *.letterSpace: -2
     *.scrollBar:   false
-```
+{% endhighlight %}
 <!--*-->
 And after that, everything worked fine!  
 
