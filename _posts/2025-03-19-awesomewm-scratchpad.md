@@ -34,7 +34,7 @@ The first part we need to create is a function that handles the three possible s
 
 So, to do that I added to my `~/.config/awesome/rc.lua`:
 
-{% highlight lua %}
+{% highlight %}
 
 -- Scratchpad
 -- This is for the scratchpad, that opens a urxvt window that can be brought forward and hidden into the background.
@@ -78,7 +78,7 @@ Another important note to make, is that the same line is also where you can chan
 
 Now we need to add the rules for this window. It should always show on top, no taskbar, should be a floating window, etc. To do this, search your `rc.lua` for "Rules" And you should find a bit of code that looks like:
 
-{% highlight lua %}
+{% highlight %}
 
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
@@ -93,7 +93,7 @@ awful.rules.rules = {
 
 And we just need to add a rule for scratchpad window, so just add it to the top, so it looks something like:  
 
-{% highlight lua %}
+{% highlight %}
 
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
@@ -125,7 +125,7 @@ Now, if you aren't using URxvt like I am, you would need to change the "class". 
 
 Now all thats left is to add a keybind that can actually activate the scratchpad. Scroll to the section of your rc.lua where your keybinds are, and add:
 
-{% highlight lua %}
+{% highlight %}
 
     -- Scratchpad keybinding
     awful.key({ modkey },            "a", toggle_scratchpad,
