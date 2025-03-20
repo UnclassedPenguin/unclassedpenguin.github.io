@@ -121,13 +121,12 @@ Now, if you aren't using URxvt like I am, you would need to change the "class". 
 
 Now all thats left is to add a keybind that can actually activate the scratchpad. Scroll to the section of your rc.lua where your keybinds are, and add:
 
-{% highlight %}
-
+```
     -- Scratchpad keybinding
     awful.key({ modkey },            "a", toggle_scratchpad,
               {description = "toggle scratchpad", group = "custom" }),
 
-{% endhighlight %}
+```
 
 In this case, I am using modkey+a to toggle the scratchpad, although this is just my setup. You can change it to whatever you like.   
 
@@ -137,23 +136,20 @@ Now, you should be able to save the config file, restart awesomewm and use the k
 
 Now, for me, I ran into a strange error where the window was using some of my config from `~/.Xresources`, but not others. It was a really strange issue that took me awhile to figure out. What it turned out to be is that because it has the name "scratchpad", you have to make sure that in your Xresouces all of the paramaters are set to *.whatever. <!--*--> So for me, I had 
 
-{% highlight %}
-    
+```
     urxvt.font:        xft:monospace:pixelsize=18
     urxvt.letterSpace: -2
     urxvt.scrollBar:   false
 
-{% endhighlight %}
+```
 
 I needed to change this to:
 
-{% highlight %}
-    
+```    
     *.font:        xft:monospace:pixelsize=18
     *.letterSpace: -2
     *.scrollBar:   false
-
-{% endhighlight %}
+```
 <!--*-->
 And after that, everything worked fine!  
 
