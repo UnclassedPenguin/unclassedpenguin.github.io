@@ -12,6 +12,6 @@ photoFrom:
 photoFromURL:
 ---
 
-[link](url){:class="randomcolor" target="_blank"}
+[link](url){:class="randomcolor" target="_blank"}<!--_-->
 {% highlight shell %}
 {% endhighlight %}
