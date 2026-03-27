@@ -11,6 +11,17 @@
   #projectGithub:
   #projectURL:
   #projectDescription:
+
+- projectName: Bible
+  projectImage: /assets/images/aaron-burden-bible.jpg
+  projectImageAlt: An open bible
+  photoBy: Aaron Burden
+  photoByURL: https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  photoFrom: Unsplash
+  photoFromURL: https://unsplash.com
+  projectGithub: https://github.com/unclassedpenguin/bible
+  projectURL: https://docs.unclassed.ca/bible
+  projectDescription: I wanted a simple command line bible app, so I wrote my own. It lets you read specific verses, random verses, favorite, and more! Written in go. 
   
 - projectName: Bales
   projectImage: /assets/images/nick-fewings-A6Lo4apGrcU-unsplash.jpg
