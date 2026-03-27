@@ -5,9 +5,7 @@ title: Blog
 
 {% for post in paginator.posts %}
 <div class="row">
-  <div class="col-md-2 col-lg-3 col-xxl-4">
-  </div>
-  <div class="blog-excerpt col-md-8 col-lg-6 col-xxl-4 text-white">
+    <div class="blog-excerpt col-md-8 col-lg-8 col-xl-8 col-xxl-5 mx-auto py-3 text-white">
     {% if post.draft %}
       <h3 class="text-center"><a class="randomcolorheader" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       <p class="text-center" style="margin-bottom:0;">{{ post.date | date_to_string}} - {{ post.author }} </p>
@@ -31,8 +29,6 @@ title: Blog
       </div>
     </div>
     <hr>
-  </div>
-  <div class="col-md-2 col-lg-3 col-xxl-4">
   </div>
 </div>
 {% endfor %}
