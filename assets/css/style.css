@@ -1,3 +1,7 @@
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   background: #1a1b26;
   color: #c0caf5;
