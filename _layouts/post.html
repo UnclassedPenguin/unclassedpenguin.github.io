@@ -6,7 +6,7 @@ layout: default
 <h2 class="randomcolor"> {{ page.title }} </h2>
 
 <div class="inline-block">
-{{ page.date | date_to_string: "ordinal", "US" }}
+{{ page.date | date: "%B %-d, %Y" }}
 -
 {{ page.author }}
 </div>
