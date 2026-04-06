@@ -31,6 +31,10 @@ hr {
     display: none;
 }
 
+li {
+    margin-top: 2rem;
+}
+
 .nav {
   margin-bottom: 3rem;
 }
@@ -48,7 +52,7 @@ hr {
 
 h1 {
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .post-list {
@@ -99,6 +103,9 @@ pre::-webkit-scrollbar-thumb {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+.inline-block {
+    display: inline-block;
 }
 
 footer {

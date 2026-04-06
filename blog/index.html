@@ -6,18 +6,12 @@ layout: page
       <ul>
       {%- for post in site.posts -%}
       <li>
-        <h3>
-          <a class="post-link randomcolor" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-
-          </a>
-        </h3>
-        <p> {{ post.date | date: "%B %-d, %Y" }} </p>
-        <p>
-         {{ post.excerpt }}
-        </p>
+        <h2><a class="post-link randomcolor" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        {{ post.date | date: "%B %-d, %Y" }} 
+        
+        {{ post.excerpt }}
+        
       </li>
-      <br>
       {%- endfor -%}
     </ul>
 </div>
