@@ -24,7 +24,7 @@ Happy Coding :)
 
 <h3 class="randomcolor pb-3 text-center">About This Site</h3>
 
-This site is made using [Jekyll](https://jekyllrb.com/){:class="randomcolor" target="_blank"}<!--_--> and [Bootstrap](https://getbootstrap.com/){:class="randomcolor" target="_blank"}<!--_-->. It's hosted on [GitHub](https://github.com){:class="randomcolor" target="_blank"}<!--_-->([source](https://github.com/UnclassedPenguin/unclassedpenguin.github.io){:class="randomcolor" target="_blank"}<!--_-->) using [GitHub Pages](https://docs.github.com/en/pages){:class="randomcolor" target="_blank"}<!--_-->.  
+This site is made using [Jekyll](https://jekyllrb.com/){:class="randomcolor" target="_blank"}<!--_-->. It's hosted on [GitHub](https://github.com){:class="randomcolor" target="_blank"}<!--_-->([source](https://github.com/UnclassedPenguin/unclassedpenguin.github.io){:class="randomcolor" target="_blank"}<!--_-->) using [GitHub Pages](https://docs.github.com/en/pages){:class="randomcolor" target="_blank"}<!--_-->.  
 
 I'm quite happy with this build for a blog. I got tired of self-hosting a blog with Wordpress and dealing with the constant bot attacks. Wordpress is a bit overkill I think if all you want is a static blog.
 
