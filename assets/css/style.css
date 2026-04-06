@@ -2,6 +2,7 @@ body {
   background: #1a1b26;
   color: #c0caf5;
   font-family: "Fira Code", monospace;
+  font-size: 15px;
   margin: 0;
 }
 
@@ -14,6 +15,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 ul {
@@ -69,7 +75,9 @@ h1 {
   overflow-x: auto;
   max-width: 100%;
   padding: 1rem;
-  background: #16161e;
+  /*background: #16161e;*/
+  background: #25262f;
+  color: #dddbff;
   border-radius: 8px;
 }
 
@@ -87,6 +95,7 @@ pre::-webkit-scrollbar-thumb {
 }
 
 .project-header, .project-description {
+    display: inline-block;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
