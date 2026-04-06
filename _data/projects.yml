@@ -2,57 +2,27 @@
 # You don't have to use them all. Name and Description are required.
 
 #- projectName:
-  #projectImage:
-  #projectImageAlt:
-  #photoBy:
-  #photoByURL:
-  #photoFrom:
-  #photoFromURL:
   #projectGithub:
   #projectURL:
   #projectDescription:
 
 - projectName: Bible
-  projectImage: /assets/images/aaron-burden-bible.jpg
-  projectImageAlt: An open bible
-  photoBy: Aaron Burden
-  photoByURL: https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-  photoFrom: Unsplash
-  photoFromURL: https://unsplash.com
   projectGithub: https://github.com/unclassedpenguin/bible
   projectURL: https://docs.unclassed.ca/bible
   projectDescription: I wanted a simple command line bible app, so I wrote my own. It lets you read specific verses, random verses, favorite, and more! Written in go. 
   
 - projectName: Bales
-  projectImage: /assets/images/nick-fewings-A6Lo4apGrcU-unsplash.jpg
-  projectImageAlt: Field of Bales of Hay
-  photoBy: Nick Fewings
-  photoByURL: https://unsplash.com/@jannerboy62
-  photoFrom: Unsplash
-  photoFromURL: https://unsplash.com
   projectGithub: https://github.com/unclassedpenguin/bales
   projectURL:
   projectDescription: A Program for keeping track of the number of bales of hay you have fed. Useful information to see how many bales your animals take to get through winter. (cli, written in Go)
 
 - projectName: Hearts 
-  projectImage: /assets/images/pexels-maksim-goncharenok-5605125.jpg
-  projectImageAlt: Heart
-  photoBy: Maksim Goncharenok
-  photoByURL: https://www.pexels.com/@maksgelatin?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
-  photoFrom: Pexels
-  photoFromURL: https://www.pexels.com
   projectGithub: https://github.com/unclassedpenguin/hearts.git
   projectURL: https://unclassed.ca/hearts/
   projectDescription: This is a project to keep track of your score
                       in a game of hearts, written in javascript.
 
 - projectName: Bingo
-  projectImage: /assets/images/mick-haupt-3UbsiRcrFV4-unsplash.jpg
-  projectImageAlt: Bingo Pieces
-  photoBy: Mick Haupt
-  photoByURL: https://unsplash.com/@rocinante_11
-  photoFrom: Unsplash
-  photoFromURL: https://unsplash.com
   projectGithub: https://github.com/unclassedpenguin/bingo
   projectURL: https://unclassed.ca/bingo
   projectDescription: This is a way to play bingo with your own items.
@@ -60,24 +30,12 @@
                       random board for you.
 
 - projectName: TVK Forge
-  projectImage: /assets/images/tvk-screenshot.png
-  projectImageAlt: TVK Forge website
-  photoBy: Tyler
-  photoByURL: https://unclassed.ca/about/
-  photoFrom: Unclassed.ca
-  photoFromURL: https://unclassed.ca/about/
   projectGithub:
   projectURL: https://tvkforge.com
   projectDescription: This is a website for my forging. Built with Jekyll and Bootstrap and 
                       the Theme is based on this blog theme. 
 
 - projectName: Password Checker 
-  projectImage: /assets/images/pexels-negative-space-97077.jpg
-  projectImageAlt: Cyber Spacey Image
-  photoBy: Negative Space
-  photoByURL: https://www.pexels.com/@negativespace 
-  photoFrom: Pexels
-  photoFromURL: https://www.pexels.com
   projectGithub: https://github.com/UnclassedPenguin/scripts/tree/master/passwordcheck 
   projectURL:
   projectDescription: A simple script written in python to check your passwords against
@@ -85,12 +43,6 @@
                       any password leaks.
 
 - projectName: Animal Tracker
-  projectImage: /assets/images/pexels-nicky-pe-7377311.jpg
-  projectImageAlt: Cute baby goat on rock
-  photoBy: Nicky Pe
-  photoByURL: https://www.pexels.com/@nicky-pe-36426242
-  photoFrom: Pexels
-  photoFromURL: https://www.pexels.com
   projectGithub: https://github.com/UnclassedPenguin/AnimalTracker
   projectURL:
   projectDescription: Program written in python for keeping track of animals, a basic herd management software. Keep track of animal body condition, weight, parents, children, and more.

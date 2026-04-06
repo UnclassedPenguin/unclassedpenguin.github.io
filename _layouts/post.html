@@ -1,102 +1,50 @@
 ---
-layout: default
+layout: default 
 ---
-{% if page.draft %}
-<div class="row">
-    <div class="blog-excerpt col-md-8 col-lg-8 col-xl-8 col-xxl-5 mx-auto py-3 text-white">
-    <h3 class="randomcolor text-center">{{ page.title }}</h3>
-    <p class="pb-4 text-center">{{ page.date | date_to_string }} - {{ page.author }}</p>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-    {% if page.image and page.photoBy == False %}
-    <img style="padding-bottom:2rem;" class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-    {% elsif page.image and page.photoBy and page.photoByURL and page.photoFromURL and page.photoFromURL %}
-    <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-
-    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}" target="_blank">{{ page.photoBy }}</a> from <a class="randomcolor" href="{{ page.photoFromURL }}" target="_blank">{{ page.photoFrom }}</a></div>
-    {% endif %}
-
-    <h5>Coming Soon!</h5>
-    <p>Be sure to check back soon!</p>
-    <div class="pb-3 text-center">
-      {% if post %}
-      {% assign categories = post.categories %}
-      {% else %}
-      {% assign categories = page.categories %}
-      {% endif %}
-      {% for category in categories %}
-      <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="randomcolor btn btn-outline-light btn-sm">{{category}}</a>
-      {% endfor %}
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="post-meta">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {% assign pdate = page.date | date_to_xmlschema %}
+      {%- if page.modified_date %}<span class="meta-label">Published:</span>{% endif %}
+      <time class="dt-published" datetime="{{ pdate }}" itemprop="datePublished">
+        {{ pdate | date: date_format }}
+      </time>
+      {%- if page.modified_date -%}
+        <span class="bullet-divider">•</span>
+        <span class="meta-label">Updated:</span>
+        {%- assign mdate = page.modified_date | date_to_xmlschema %}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: date_format }}
+        </time>
+      {%- endif -%}
+      {%- if page.author %}
+      <div class="{% unless page.modified_date %}force-inline {% endunless %}post-authors">
+        {%- for author in page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+          {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      </div>
+      {%- endif %}
     </div>
-  <hr>
-  </div>
-</div>
+  </header>
 
-<div class="row">
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3 text-center margin-2">
-    {% if page.previous.url %}
-    <a class="randomcolorheader" href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
-    {% endif %}
-  </div>
-  <div class="col-md-3 text-center margin-2" style="text-align:right;">
-    {% if page.next.url %}
-    <a class="randomcolorheader" href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
-    {% endif %}
-  </div>
-  <div class="col-md-3">
-  </div>
-</div>
-
-<!--This is where a normal post starts-->
-
-{% else %}
-
-<div class="row">
-    <div class="blog-excerpt col-md-8 col-lg-8 col-xl-8 col-xxl-5 mx-auto py-3 text-white">
-    <h3 class="randomcolor text-center">{{ page.title }}</h3>
-    <p class="pb-4 text-center">{{ page.date | date_to_string }} - {{ page.author }}</p>
-
-    {% if page.image and page.photoBy == False %}
-    <img style="padding-bottom:2rem;" class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-    {% elsif page.image and page.photoBy and page.photoByURL and page.photoFromURL and page.photoFromURL %}
-    <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-
-    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}">{{ page.photoBy }}</a> from <a class="randomcolor" href="{{ page.photoFromURL }}">{{ page.photoFrom }}</a></div>
-    {% endif %}
-
-
+  <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-    <div class="text-center">
-      {% if post %}
-      {% assign categories = post.categories %}
-      {% else %}
-      {% assign categories = page.categories %}
-      {% endif %}
-      {% for category in categories %}
-      <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="randomcolor btn btn-outline-light btn-sm">{{category}}</a>
-      {% endfor %}
+  </div>
+
+  {% if jekyll.environment == 'production' -%}
+    {% if page.comments == false -%}
+    <div class="comments-disabled-message">
+      Comments have been disabled for this post.
     </div>
+    {% else -%}
+      {%- include comments.html -%}
+    {% endif -%}
+  {% endif -%}
 
-    <hr>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3 text-center margin-2">
-    {% if page.previous.url %}
-    <a class="randomcolorheader" href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
-    {% endif %}
-  </div>
-  <div class="col-md-3 text-center margin-2" style="text-align:right;">
-    {% if page.next.url %}
-    <a class="randomcolorheader" href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
-    {% endif %}
-  </div>
-  <div class="col-md-3">
-  </div>
-</div>
-
-{% endif %}
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

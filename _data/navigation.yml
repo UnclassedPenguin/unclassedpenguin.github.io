@@ -4,13 +4,7 @@
   link: /blog/
 - name: Projects
   link: /projects/
-- name: About
-  link: /about/
 - name: Docs
   link: https://docs.unclassed.ca
-- name: ToDo
-  link: /todo/
-- name: Search
-  link: /search/
-- name: Contact
-  link: https://github.com/UnclassedPenguin/UnclassedPenguin/discussions
+- name: About
+  link: /about/
