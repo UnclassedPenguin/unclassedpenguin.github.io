@@ -1,0 +1,102 @@
+---
+layout: default
+---
+{% if page.draft %}
+<div class="row">
+    <div class="blog-excerpt col-md-8 col-lg-8 col-xl-8 col-xxl-5 mx-auto py-3 text-white">
+    <h3 class="randomcolor text-center">{{ page.title }}</h3>
+    <p class="pb-4 text-center">{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+    {% if page.image and page.photoBy == False %}
+    <img style="padding-bottom:2rem;" class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+    {% elsif page.image and page.photoBy and page.photoByURL and page.photoFromURL and page.photoFromURL %}
+    <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+
+    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}" target="_blank">{{ page.photoBy }}</a> from <a class="randomcolor" href="{{ page.photoFromURL }}" target="_blank">{{ page.photoFrom }}</a></div>
+    {% endif %}
+
+    <h5>Coming Soon!</h5>
+    <p>Be sure to check back soon!</p>
+    <div class="pb-3 text-center">
+      {% if post %}
+      {% assign categories = post.categories %}
+      {% else %}
+      {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="randomcolor btn btn-outline-light btn-sm">{{category}}</a>
+      {% endfor %}
+    </div>
+  <hr>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-3">
+  </div>
+  <div class="col-md-3 text-center margin-2">
+    {% if page.previous.url %}
+    <a class="randomcolorheader" href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </div>
+  <div class="col-md-3 text-center margin-2" style="text-align:right;">
+    {% if page.next.url %}
+    <a class="randomcolorheader" href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+    {% endif %}
+  </div>
+  <div class="col-md-3">
+  </div>
+</div>
+
+<!--This is where a normal post starts-->
+
+{% else %}
+
+<div class="row">
+    <div class="blog-excerpt col-md-8 col-lg-8 col-xl-8 col-xxl-5 mx-auto py-3 text-white">
+    <h3 class="randomcolor text-center">{{ page.title }}</h3>
+    <p class="pb-4 text-center">{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+    {% if page.image and page.photoBy == False %}
+    <img style="padding-bottom:2rem;" class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+    {% elsif page.image and page.photoBy and page.photoByURL and page.photoFromURL and page.photoFromURL %}
+    <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+
+    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}">{{ page.photoBy }}</a> from <a class="randomcolor" href="{{ page.photoFromURL }}">{{ page.photoFrom }}</a></div>
+    {% endif %}
+
+
+    {{ content }}
+    <div class="text-center">
+      {% if post %}
+      {% assign categories = post.categories %}
+      {% else %}
+      {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="randomcolor btn btn-outline-light btn-sm">{{category}}</a>
+      {% endfor %}
+    </div>
+
+    <hr>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-3">
+  </div>
+  <div class="col-md-3 text-center margin-2">
+    {% if page.previous.url %}
+    <a class="randomcolorheader" href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </div>
+  <div class="col-md-3 text-center margin-2" style="text-align:right;">
+    {% if page.next.url %}
+    <a class="randomcolorheader" href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+    {% endif %}
+  </div>
+  <div class="col-md-3">
+  </div>
+</div>
+
+{% endif %}

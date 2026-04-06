@@ -1,0 +1,36 @@
+#site
+name: "Unclassed Blog"
+url: https://unclassed.ca
+baseurl: 
+permalink: /:year/:title/ 
+excerpt_separator: <!--more-->
+
+
+#Cover Page
+coverheader: "Hey I'm Tyler"
+coversub: "This is my blog where I will post about technology, life, farming, and more!"
+
+
+collections:
+  authors:
+
+
+#Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+#Paginate
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+#Other
+markdown: kramdown
+
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge 
