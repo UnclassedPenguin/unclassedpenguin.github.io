@@ -7,7 +7,12 @@ layout: page
       {%- for post in site.posts -%}
       <li>
         <h2><a class="post-link randomcolor" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+
+        <div class="inline-block">
         {{ post.date | date: "%B %-d, %Y" }} 
+        -
+        {{ post.author }}
+        </div>
         
         {{ post.excerpt }}
         
