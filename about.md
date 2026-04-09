@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-<h2 class="randomcolor blogsubtitle">About Me</h2>
+<h3 class="randomcolor blogsubtitle">About Me</h3>
 
 Hey, I’m Tyler.  
 
@@ -22,14 +22,14 @@ You can contact me [here](https://github.com/UnclassedPenguin/UnclassedPenguin/d
 Happy Coding :)  
 
 
-<h2 class="randomcolor blogsubtitle">About This Site</h2>
+<h3 class="randomcolor blogsubtitle">About This Site</h3>
 
 This site is made using [Jekyll](https://jekyllrb.com/){:class="randomcolor" target="_blank"}<!--_-->. It's hosted on [GitHub](https://github.com){:class="randomcolor" target="_blank"}<!--_-->([source](https://github.com/UnclassedPenguin/unclassedpenguin.github.io){:class="randomcolor" target="_blank"}<!--_-->) using [GitHub Pages](https://docs.github.com/en/pages){:class="randomcolor" target="_blank"}<!--_-->.  
 
 I'm quite happy with this build for a blog. I got tired of self-hosting a blog with Wordpress and dealing with the constant bot attacks. Wordpress is a bit overkill I think if all you want is a static blog.
 
 
-<h2 class="randomcolor blogsubtitle">My Setup</h2>
+<h3 class="randomcolor blogsubtitle">My Setup</h3>
 
 <h3 class="randomcolor">Old News</h3>
 
