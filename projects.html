@@ -8,12 +8,12 @@ permalink: /projects/
     {% for item in site.data.projects %}
     <li>
         {% if item.projectURL and item.projectGithub %}
-            <h3><a class="randomcolor" href="{{ item.projectURL }}" target="_blank">{{ item.projectName }}</a></h3>
+            <h3 class="inline-block"><a class="randomcolor" href="{{ item.projectURL }}" target="_blank">{{ item.projectName }}</a></h3>
             <a class="randomcolor" href="{{ item.projectGithub }}" target="_blank">(source)</a>
         {% elsif item.projectURL %}
-            <h3><a class="randomcolor" href="{{ item.projectURL }}" target="_blank">{{ item.projectName }}</a></h3>
+            <h3 class="inline-block"><a class="randomcolor" href="{{ item.projectURL }}" target="_blank">{{ item.projectName }}</a></h3>
         {% elsif item.projectGithub%}
-            <h3><a class="randomcolor" href="{{ item.projectGithub }}" target="_blank">{{ item.projectName }}</a></h3>
+            <h3 class="inline-block"><a class="randomcolor" href="{{ item.projectGithub }}" target="_blank">{{ item.projectName }}</a></h3>
             <a class="randomcolor" href="{{ item.projectGithub }}" target="_blank">(source)</a>
         {% endif %}
         
