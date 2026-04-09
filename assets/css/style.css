@@ -24,6 +24,7 @@ a {
 p {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-wrap: break-word;
 }
 
 ul {
@@ -39,6 +40,11 @@ li {
     margin-top: 2rem;
 }
 
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 .nav {
   margin-bottom: 3rem;
 }
@@ -52,11 +58,6 @@ li {
 
 .nav a:hover {
   opacity: 0.8;
-}
-
-h1 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .post-list {
