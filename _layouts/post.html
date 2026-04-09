@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-<h2 class="randomcolor"> {{ page.title }} </h2>
+<h3 class="randomcolor"> {{ page.title }} </h3>
 
 {% if page.image and page.photoBy and page.photoByURL and page.photoFromURL and page.photoFromURL %}
     <img class="post-image" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"   alt="{{ page.title }}">
