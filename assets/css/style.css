@@ -37,7 +37,7 @@ hr {
 }
 
 li {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 h1 {
@@ -58,6 +58,10 @@ h1 {
 
 .nav a:hover {
   opacity: 0.8;
+}
+
+.blog-list {
+    margin-bottom: 3rem;
 }
 
 .post-list {
@@ -82,7 +86,7 @@ h1 {
 }
 
 .photo-credit {
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .highlight {
@@ -127,6 +131,10 @@ pre::-webkit-scrollbar-thumb {
 .blogsubtitle {
     margin-top: 2rem;
     margin-bottom:2rem;
+}
+
+.margin-bottom {
+    margin-bottom: 2rem;
 }
 
 footer {
