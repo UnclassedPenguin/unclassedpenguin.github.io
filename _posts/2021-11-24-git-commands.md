@@ -9,7 +9,7 @@ categories: [Git, Cheat Sheet]
 
 - Create global alias (where name is name of your alias and command is the command you want to replace)   
         `$ git config --global alias.NAME "COMMAND"`
-
+<!--more-->
 #### Branches
 
 - Check local branches   
@@ -17,7 +17,7 @@ categories: [Git, Cheat Sheet]
 
 - Create new branch  
 	`$ git branch new-branch`
-<!--more-->
+
 - Switch to new branch  
 	`$ git checkout new-branch`
 
