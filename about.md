@@ -31,11 +31,11 @@ I'm quite happy with this build for a blog. I got tired of self-hosting a blog w
 
 <h2 class="randomcolor blogsubtitle">My Setup</h2>
 
-<h4 class="randomcolor">Old News</h4>
+<h3 class="randomcolor">Old News</h3>
 
 I run linux on all of my computers. ~~Mainly [Ubuntu](https://ubuntu.com/){:class="randomcolor" target="_blank"}<!--_-->. I have tried all sorts of different distros and always end up back at Ubuntu. Currently on my main laptop I use Ubuntu 20.04.~~ I now use [Linux Mint](https://linuxmint.com/){:class="randomcolor" target="_blank}<!--_--> as my main distro, with [i3wm](https://i3wm.org/){:class="randomcolor" target="_blank"}<!--_-->, and all of my editing/coding is done with [vim](https://vim.org){:class="randomcolor" target="_blank"}<!--_-->. You can checkout [my dotfiles](https://github.com/unclassedpenguin/dotfiles){:class="randomcolor" target="_blank"}<!--_-->. 
 
-<h4 class="randomcolor">Update 2026</h4>
+<h3 class="randomcolor">Update (March 2026)</h3>
 
 I still run linux on everything...I don't have a single instance of linux mint however. My main desktop and server run Debian, however I'm kind of getting sick of the outdated software. My laptop triple boots Debian, Arch, and Gentoo. Gentoo is what I mainly use on it. I put Debian to manage grub because its stable and easy. Although after having all 3 on there for awhile...I would probably be happy with just Gentoo. It has definitely become my favorite flavor of linux these days. Give me a few months, I'm sure it will change.  
 
