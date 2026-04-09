@@ -114,10 +114,6 @@ pre::-webkit-scrollbar-thumb {
   border-radius: 4px;
 }
 
-.project-item {
-    margin-bottom:2rem;
-}
-
 .project-header, .project-description {
     display: inline-block;
     margin-top: 0.5rem;
