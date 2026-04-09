@@ -60,7 +60,7 @@ h1 {
   opacity: 0.8;
 }
 
-.blog-list {
+.blog-list, .project-list {
     margin-bottom: 3rem;
 }
 
@@ -116,11 +116,12 @@ pre::-webkit-scrollbar-thumb {
 
 .inline-block {
     display: inline-block;
+    margin: 0;
 }
 
 .blogsubtitle {
     margin-top: 2rem;
-    margin-bottom:2rem;
+    margin-bottom:1rem;
 }
 
 .margin-bottom {
