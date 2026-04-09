@@ -37,7 +37,7 @@ hr {
 }
 
 li {
-    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 h1 {
@@ -88,12 +88,13 @@ h1 {
 .highlight {
   overflow-x: auto;
   margin:0;
+  padding:0 !important;
 }
 
 .highlight pre {
   overflow-x: auto;
   max-width: 100%;
-  padding: 1rem;
+  margin: 1rem;
   /*background: #16161e;*/
   background: #25262f;
   color: #dddbff;
@@ -125,7 +126,7 @@ pre::-webkit-scrollbar-thumb {
 
 .blogsubtitle {
     margin-top: 2rem;
-    margin-bottom:1rem;
+    margin-bottom:2rem;
 }
 
 footer {
