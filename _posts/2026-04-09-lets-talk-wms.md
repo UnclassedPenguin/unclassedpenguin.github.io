@@ -49,9 +49,7 @@ Also, I set up my config once, and have yet to have a single option break. Now t
 
 So maybe there will be a place for Hyprland in my future, but for now, I am pretty sure I will be sticking to Niri. 
 
-Even in Niri (and pretty much every other wm) I tend to change the keybindings to match what I learned with i3wm. Ctrl-shift-e to exit. Ctrl-Shift-q to close applications. It has just become so engrained in my muscle memory I don't want to learn other key combos.  
-
-[Here](https://github.com/UnclassedPenguin/dotfiles/blob/master/niri/config.kdl){:class="randomcolor" target="_blank"}<!--_--> is a link if you'd like to check out my Niri config. Its fairly simple, not a ton of changes. I have it set up to use both Rofi and Fuzzel, and I changed some of the movement to match what I like from vim keybindings, such as going to the workspace below by using mod+j, which Niri provides the really nice option "focus-window-or-workspace-down". So that if you have windows in a column, it moves down the column first, but once you reach the bottom it will push you to the workspace below.  
+[Here](https://github.com/UnclassedPenguin/dotfiles/blob/master/niri/config.kdl){:class="randomcolor" target="_blank"}<!--_--> is a link if you'd like to check out my Niri config. Its fairly simple, not a ton of changes. I have it set up to use both Rofi and Fuzzel, and I changed some of the movement to match what I like from vim keybindings, such as going to the workspace below by using mod+j, which Niri provides the really nice option "focus-window-or-workspace-down". So that if you have windows in a column, it moves down the column first, but once you reach the bottom it will push you to the workspace below. Also, in Niri (and pretty much every other wm) I tend to change the keybindings to match what I learned with i3wm. Ctrl-shift-e to exit. Ctrl-Shift-q to close applications. It has just become so engrained in my muscle memory I don't want to learn other key combos.  
 
 Overall, I am just super happy with Niri and definitely see myself using it for the forseeable future. :)  
 
