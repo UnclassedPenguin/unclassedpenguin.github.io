@@ -37,13 +37,13 @@ You can't look into wayland compositors without running across Hyprland. So that
 
 I do love Hyprland. I used it for a year or so, and got my config to a place that I was content with. I even ran it on some fairly old hardware, so I really don't think it is that heavy like some people complain about.  
 
-My only problem with Hyprland is booting up, updating my system, realising that Hyprland had *another* update, and now my config is broken. Then it's a matter of several hours of looking over the documentation and figuring out how to do the same thing in a different way. That happened to me about 3 times before I started thinking, "Hmmm. Maybe there's something else."  
+My only problem with Hyprland is booting up, updating my system, realizing that Hyprland had *another* update, and now my config is broken. Then it's a matter of several hours of looking over the documentation and figuring out how to do the same thing in a different way. That happened to me about 3 times before I started thinking, "Hmmm. Maybe there's something else."  
 
 Which brings me to the finale (as of now), and that would be Niri. Looking online you constantly see debates between Hyprland and Niri, and much of the time its people claiming once you switch to Niri you won't go back. I have to say, so far for me that has been the case.  
 
 Niri does *nearly* everything I need it to do, and the one thing it doesn't natively support (yet), a scratchpad, I have figured out a good workaround. The only thing I ever really use a scratchpad for is to hold a terminal (and if I need more than one, I can just use screen and switch between them), and I use kitty for my terminal which has its own scratchpad, called quick-access-terminal. So I have my typical scratchpad keybinding that launches the kitty quick-access-terminal, and it completely satisfies my scratchpad needs.  
 
-Other than that, I am completely happy with the layout and options of Niri. It takes a little bit to get used to the vetical stack instead of horizontal like every other window manager I've ever used, but it's really not any different in the end.  
+Other than that, I am completely happy with the layout and options of Niri. It takes a little bit to get used to the vertical stack instead of horizontal like every other window manager I've ever used, but it's really not any different in the end.  
 
 Also, I set up my config once, and have yet to have a single option break. Now theres something to say about Hyprland that it is under constant development and maybe that is a good thing. It's a very active community, but I think it will be better once things stabalize and slow down a bit.  
 
@@ -51,7 +51,7 @@ So maybe there will be a place for Hyprland in my future, but for now, I am pret
 
 Even in Niri (and pretty much every other wm) I tend to change the keybindings to match what I learned with i3wm. Ctrl-shift-e to exit. Ctrl-Shift-q to close applications. It has just become so engrained in my muscle memory I don't want to learn other key combos.  
 
-[Here](https://github.com/UnclassedPenguin/dotfiles/blob/master/niri/config.kdl){:class="randomcolor" target="_blank"}<!--_--> is a link if you'd like to check out my Niri config. Its fairly simple, not a ton of changes. I have it set up to use both Rofi and Fuzzel, and I changed some of the movement to match what I like from vim keybindings, such as going to the workspace below by using mod+j, which Niri provies the really nice option "focus-window-or-workspace-down". So that if you have windows in a column, it moves down the column first, but once you reach the bottom it will push you to the workspace below.  
+[Here](https://github.com/UnclassedPenguin/dotfiles/blob/master/niri/config.kdl){:class="randomcolor" target="_blank"}<!--_--> is a link if you'd like to check out my Niri config. Its fairly simple, not a ton of changes. I have it set up to use both Rofi and Fuzzel, and I changed some of the movement to match what I like from vim keybindings, such as going to the workspace below by using mod+j, which Niri provides the really nice option "focus-window-or-workspace-down". So that if you have windows in a column, it moves down the column first, but once you reach the bottom it will push you to the workspace below.  
 
 Overall, I am just super happy with Niri and definitely see myself using it for the forseeable future. :)  
 
