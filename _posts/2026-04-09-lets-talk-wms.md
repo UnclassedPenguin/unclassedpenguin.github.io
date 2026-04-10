@@ -4,7 +4,7 @@ title: Lets Talk Window Managers
 author: Tyler
 date: 2026-04-09
 categories: Linux
-draft: true
+draft: false
 image: 
 photoBy: 
 photoByURL:
