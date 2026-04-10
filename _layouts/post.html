@@ -9,6 +9,10 @@ layout: default
     <img class="post-image" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"   alt="{{ page.title }}">
 
     <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}" target="_blank">{{ page.photoBy }}</a> from <a                    class="randomcolor" href="{{ page.photoFromURL }}" target="_blank">{{ page.photoFrom }}</a></div>
+{% elsif page.image and page.photoBy == "Tyler" %}
+    <img class="post-image" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"   alt="{{ page.  title }}">
+
+    <div class="photo-credit">Photo by <a class="randomcolor" href="{{ page.photoByURL }}" target="_blank">{{ page.photoBy }}</a> from <a                     class="randomcolor" href="https://unclassed.ca/about" target="_blank">unclassed.ca</a></div>
 {% endif %}
 
 <div class="inline-block margin-bottom">

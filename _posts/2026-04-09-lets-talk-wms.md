@@ -5,9 +5,9 @@ author: Tyler
 date: 2026-04-09
 categories: Linux
 draft: false
-image: 
-photoBy: 
-photoByURL:
+image: assets/images/window-manager-header.png 
+photoBy: Tyler
+photoByURL: https://unclassed.ca/about
 photoFrom:
 photoFromURL:
 ---
