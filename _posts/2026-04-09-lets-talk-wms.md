@@ -31,13 +31,13 @@ As I previously stated, I loved i3wm, and have used it extensively. The next one
 
 If I need to use x11 these days, it's gonna be awesome. 
 
-Speaking of x11...I have pretty much moved away from it onto [wayland](https://wayland.freedesktop.org/){:class="randomcolor" target="_blank"}<!--_-->. Of course, loving i3, I tried Sway, which I really do like, but for me who used i3 for so long, it just feels too familiar and I have been ready for change, so I rarely stick with it for too long.  
+Speaking of x11...I have pretty much moved away from it onto [wayland](https://wayland.freedesktop.org/){:class="randomcolor" target="_blank"}<!--_-->. Of course, loving i3, I tried Sway, which I really do like, but for someone like me who used i3 for so long, it just feels too familiar and I have been ready for change, so I rarely stick with it for too long.  
 
 You can't look into wayland compositors without running across Hyprland. So that was my next logical choice.  
 
-I do love Hyprland. I used it for a year or so, and go my config to a place I was content with. I even ran it on some fairly old hardware, so I really don't think it is that heavy like some people complain about.  
+I do love Hyprland. I used it for a year or so, and got my config to a place that I was content with. I even ran it on some fairly old hardware, so I really don't think it is that heavy like some people complain about.  
 
-My only problem with Hyprland is booting up, updating my system, realising that Hyprland had *another* update, and now my config is broken. Then it's a matter of several hours of looking over the documentation and figuring out how to do the same thing in a different way. That happened to me about 3 times before I started thinking, "Hmmm. Maybe theres something else."  
+My only problem with Hyprland is booting up, updating my system, realising that Hyprland had *another* update, and now my config is broken. Then it's a matter of several hours of looking over the documentation and figuring out how to do the same thing in a different way. That happened to me about 3 times before I started thinking, "Hmmm. Maybe there's something else."  
 
 Which brings me to the finale (as of now), and that would be Niri. Looking online you constantly see debates between Hyprland and Niri, and much of the time its people claiming once you switch to Niri you won't go back. I have to say, so far for me that has been the case.  
 
