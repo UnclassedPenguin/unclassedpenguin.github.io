@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lets Talk Window Managers
+title: Let's Talk Window Managers
 author: Tyler
 date: 2026-04-09
 categories: Linux
