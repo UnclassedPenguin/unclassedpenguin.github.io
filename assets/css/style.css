@@ -98,7 +98,7 @@ h1 {
 .highlight pre {
   overflow-x: auto;
   max-width: 100%;
-  margin: 1rem;
+  padding: 1rem;
   /*background: #16161e;*/
   background: #25262f;
   color: #dddbff;
