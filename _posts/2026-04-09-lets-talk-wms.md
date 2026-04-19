@@ -25,11 +25,11 @@ I'm not gonna lie. I used a very lightly customized i3wm for probably longer tha
 
 I've tried: [i3wm](https://i3wm.org/){:class="randomcolor" target="_blank"}<!--_-->, [dwm](https://dwm.suckless.org/){:class="randomcolor" target="_blank"}<!--_-->, [awesomewm](https://awesomewm.org/){:class="randomcolor" target="_blank"}<!--_-->, [sway](https://swaywm.org/){:class="randomcolor" target="_blank"}<!--_-->, [hyprland](https://hypr.land/){:class="randomcolor" target="_blank"}<!--_-->, [niri](https://niri-wm.github.io/niri/){:class="randomcolor" target="_blank"}<!--_-->, maybe more I can't remember... 
 
-The only one I haven't liked was dwm. I'm not a fan of the [suckless philosophy](https://suckless.org/philosophy/){:class="randomcolor" target="_blank"}<!--_--> which has always come across as elitist to me.  
-
 As I previously stated, I loved i3wm, and have used it extensively. The next one I settled on after that was awesomewm. That became my new favorite, and I have spent a ton of time with it and have my rc.lua configured pretty much to my liking. ([dotfiles](https://github.com/unclassedpenguin/dotfiles.git){:class="randomcolor" target="_blank"}<!--_--> plug...)  
 
 If I need to use x11 these days, it's gonna be awesome. 
+
+I haven't really given dwm a fair shot, so stay tuned I might be trying it more in the future.  
 
 Speaking of x11...I have pretty much moved away from it onto [wayland](https://wayland.freedesktop.org/){:class="randomcolor" target="_blank"}<!--_-->. Of course, loving i3, I tried Sway, which I really do like, but for someone like me who used i3 for so long, it just feels too familiar and I have been ready for change, so I rarely stick with it for too long.  
 
