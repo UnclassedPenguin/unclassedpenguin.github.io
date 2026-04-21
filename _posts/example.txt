@@ -22,5 +22,6 @@ photoFromURL:
 
 
 [link]: url
-{:class="randomcolor" target="_blank"}<!--_-->
+{:class="randomcolor" target="_blank"}
+<!--_-->
 
