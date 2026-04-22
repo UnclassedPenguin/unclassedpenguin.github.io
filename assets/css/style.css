@@ -45,6 +45,14 @@ h1 {
   margin-bottom: 1rem;
 }
 
+td, th {
+    padding: 0 1rem;
+}
+
+table {
+    margin: 3rem auto;
+}
+
 .nav {
   margin-bottom: 3rem;
 }
