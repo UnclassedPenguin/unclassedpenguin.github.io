@@ -13,7 +13,8 @@ photoFromURL: https://dwm.suckless.org/
 ---
 
 
-In my [last post] I was talking about different window managers, and I mentioned that I had not given [dwm] much of a chance. I decided to change that; so for the last week I have been using it, customizing it, and trying it out on different hardware. Let's see what I have learned.<!--more-->
+In my [last post]({% post_url 2026-04-09-lets-talk-wms %}){:class="randomcolor" target="_blank"}<!--_--> I was talking about different window managers, and I mentioned that I had not given [dwm](https://dwm.suckless.org/){:class="randomcolor" target="_blank"}<!--_--> much of a chance. I decided to change that; so for the last week I have been using it, customizing it, and trying it out on different hardware. Let's see what I have learned.<!--more-->
+
 
 Firstly, I have heard that dwm is supposed to be one of the lightest window managers out there, so I decided to test that out by running it on some old and new(er) hardware to see how it compares. 
 
@@ -58,14 +59,6 @@ In my last post, I raved about niri and dismissed dwm; yet here I am raving abou
 
 
 <!--links-->
-[last post]: {% post_url 2026-04-09-lets-talk-wms %}
-{:class="randomcolor" target="_blank"}
-<!--_-->
-
-[dwm]: https://dwm.suckless.org/
-{:class="randomcolor" target="_blank"}
-<!--_-->
-
 [Samsung NF210]: https://www.trustedreviews.com/reviews/samsung-nf210
 {:class="randomcolor" target="_blank"}
 <!--_-->
