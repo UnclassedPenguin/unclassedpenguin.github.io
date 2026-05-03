@@ -8,7 +8,9 @@ const colors = ["#81EF9E",
                 "#CB98EB",
                 "#98B8EB",
                 "#57FF73",
-                "#7357FF",
+                // I don't like this purple color
+                // It's too dark
+                //"#7357FF",
                 "#F18A65",
                 "#65F18A",
                 "#4CF679",
