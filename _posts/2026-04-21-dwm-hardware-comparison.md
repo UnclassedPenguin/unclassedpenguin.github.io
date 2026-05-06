@@ -7,9 +7,9 @@ categories: Linux, WM
 draft: false
 image: assets/images/dwmlogo-green.png
 photoBy: Tyler
-photoByURL: https://unclassed.ca/about
-photoFrom: dwm
-photoFromURL: https://dwm.suckless.org/
+photoByURL: https://unclassed.ca/about/
+photoFrom: unclassed.ca
+photoFromURL: https://unclassed.ca/about/
 ---
 
 
