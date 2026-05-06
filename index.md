@@ -1,5 +1,7 @@
 ---
-layout: home
+layout: page
+title: Home
+description: Unclassed Blog Home
 ---
 <script src="https://keepandroidopen.org/banner.js?size=minimal&animation=off"></script>
 

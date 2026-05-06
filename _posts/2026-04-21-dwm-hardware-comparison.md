@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dwm Hardware Comparison
+description: Comparing dwm on different hardware.
 author: Tyler
 date: 2026-04-21
 categories: Linux, WM

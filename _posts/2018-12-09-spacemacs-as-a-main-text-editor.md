@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Spacemacs as a Main Text Editor"
+description: Using spacemacs as a main text editor.
 author: Tyler
 image: assets/images/Spacemacs-screenshot-768x421.png
 photoBy: Tyler

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Trying Out Zsh (and Oh My Zsh)
+description: Playing with Oh My Zsh.
 author: Tyler
 date: 2021-12-27
 categories: Linux 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AwesomeWM Scratchpad
+description: How to create a simple awesomewm terminal scratchpad.
 author: Tyler
 date: 2025-03-19
 categories: Linux

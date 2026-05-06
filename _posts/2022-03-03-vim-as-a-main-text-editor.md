@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Vim as a Main Text Editor
+description: Using vim as a main text editor.
 author: Tyler
 date: 2022-03-03
 categories: Vim 

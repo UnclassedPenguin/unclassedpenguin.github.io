@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Change Colour for Ubuntu 18.04 Splash Screen, Login and Grub [Automatically]"
+description: How to change color of Ubuntu 18.04 splash screen, with a script.
 author: Tyler
 date: 2019-02-02
 categories: Ubuntu

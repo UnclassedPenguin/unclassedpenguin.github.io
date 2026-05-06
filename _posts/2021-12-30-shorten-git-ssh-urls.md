@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Shorten Git SSH URL 
+description: How to shorten git ssh urls.
 author: Tyler
 date: 2021-12-30
 categories: Git

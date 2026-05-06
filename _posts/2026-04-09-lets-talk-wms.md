@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Let's Talk Window Managers
+description: Exploring different window managers for linux.
 author: Tyler
 date: 2026-04-09
 categories: Linux

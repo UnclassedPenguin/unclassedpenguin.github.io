@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Simple Password Check"
+description: How to check if your password has been involved in database leaks.
 author: Tyler
 categories: Security
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page 
 title: About
+description: Unclassed Blog About
 permalink: /about/
 ---
 

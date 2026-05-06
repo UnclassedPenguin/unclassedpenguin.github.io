@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Git Commands Cheat Sheet"
+description: Git commands cheat sheet.
 author: Tyler
 date: 2021-11-24
 categories: [Git, Cheat Sheet]

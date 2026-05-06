@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Our Dependency on Electricity"
+description: An exploration into our dependency on electricity.
 author: Tyler
 date: 2021-11-26
 categories: Thoughts
