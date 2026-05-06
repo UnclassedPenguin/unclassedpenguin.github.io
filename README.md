@@ -7,4 +7,4 @@ If you want links in the summary part, they need to be long ugly md links, after
 
 ## Things
 
-- I changed the style. Not chaotic anymore? lets see how it goes. To go back...change assets/js/setRandomColors.js.bu back to normal. And then edit the color/background in body{} in style.css. 
+- I changed the style. Not chaotic anymore? lets see how it goes. To go back...change assets/js/setRandomColors.js.bu back to normal. And then edit the color/background in body{} in style.css. and add <p>I like to call the theme "chaotic minimalism".</p> to the main page, before enjoy. 
