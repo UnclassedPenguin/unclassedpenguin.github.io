@@ -17,9 +17,7 @@ permalink: /projects/
             <h3 class="inline-block"><a class="randomcolor" href="{{ item.projectGithub }}" target="_blank">{{ item.projectName }}</a></h3>
             <a class="randomcolor" href="{{ item.projectGithub }}" target="_blank">(source)</a>
         {% endif %}
-        
             <p class="project-description"> {{ item.projectDescription }} </p>
     </li>
     {% endfor %}
 </ul>
-
