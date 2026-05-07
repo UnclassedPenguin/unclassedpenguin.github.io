@@ -41,6 +41,3 @@ I run linux on all of my computers. ~~Mainly [Ubuntu](https://ubuntu.com/){:clas
 I still run linux on everything...I don't have a single instance of linux mint however. My main desktop and server run Debian, however I'm kind of getting sick of the outdated software. My laptop triple boots Debian, Arch, and Gentoo. Gentoo is what I mainly use on it. I put Debian to manage grub because its stable and easy. Although after having all 3 on there for awhile...I would probably be happy with just Gentoo. It has definitely become my favorite flavor of linux these days. Give me a few months, I'm sure it will change.  
 
 I was on the [hypr](https://hypr.land){:class="randomcolor" target="_blank}<!--_-->  train for quite awhile, but I've recently hopped to the [Niri](https://niri-wm.github.io/niri/){:class="randomcolor" target="_blank}<!--_--> train and am really enjoying it so far. Honestly I love hyprland, but I got kind of sick of my config breaking from the constant updates. I'm new to Niri, so we'll see how it goes. But for now that is mainly what I am going to be using I believe. As always, you can check out my [dotfiles](https://github.com/unclassedpenguin/dotfiles){:class="randomcolor" target="_blank"}<!--_-->.  
-
-
-
