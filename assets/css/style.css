@@ -51,10 +51,12 @@ h1 {
 
 td, th {
     padding: 0 1rem;
+    border: 1px solid #f7f7f7;
 }
 
 table {
     margin: 3rem auto;
+    border: 1px solid #f7f7f7;
 }
 
 pre::-webkit-scrollbar {
@@ -128,9 +130,8 @@ footer {
   overflow-x: auto;
   max-width: 100%;
   padding: 1rem;
-  /*background: #16161e;*/
-  background: #25262f;
-  color: #dddbff;
+  background: #2b2b2b;
+  color: #f7f7f7;
   border-radius: 8px;
 }
 
