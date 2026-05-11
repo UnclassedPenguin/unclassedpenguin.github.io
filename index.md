@@ -3,7 +3,6 @@ layout: page
 title: Home
 description: Unclassed Blog Home
 ---
-<script src="https://keepandroidopen.org/banner.js?size=minimal&animation=off"></script>
 
 <p>Hey, I'm Tyler</p>
 <p>This is my blog where I'll write about whatever interests me at the moment. Usually technology, computers, linux. Sometimes farm life, the outdoors, or blacksmithing.</p>
