@@ -14,7 +14,7 @@ photoFromURL: https://unclassed.ca/about/
 ---
 
 
-In my [last post]({% post_url 2026-04-09-lets-talk-wms %}){:class="randomcolor" target="_blank"}<!--_--> I was talking about different window managers, and I mentioned that I had not given [dwm](https://dwm.suckless.org/){:class="randomcolor" target="_blank"}<!--_--> much of a chance. I decided to change that; so for the last week I have been using it, customizing it, and trying it out on different hardware. Let's see what I have learned.<!--more-->
+In my [last post]({% post_url 2026-04-09-lets-talk-wms %}) I was talking about different window managers, and I mentioned that I had not given [dwm](https://dwm.suckless.org/) much of a chance. I decided to change that; so for the last week I have been using it, customizing it, and trying it out on different hardware. Let's see what I have learned.<!--more-->
 
 
 Firstly, I have heard that dwm is supposed to be one of the lightest window managers out there, so I decided to test that out by running it on some old and new(er) hardware to see how it compares. 
@@ -23,7 +23,7 @@ For the old hardware, I have a [Samsung NF210] which is a netbook from 2010 with
 
 For the "new" hardware, I am going to be using my [Thinkpad x280], that admittedly isn't all that new being released in 2018, but it has enough power to put it in an entirely different category from the NF210, and is currently my daily driver in 2026.
 
-<h3 class="randomcolor blogsubtitle">The Setup</h3>
+<h3 class="blogsubtitle">The Setup</h3>
 
 I started by picking an operating system for the netbook, which had to be something as minimal as the window manager I was targeting, so I landed on [Arch]. It worked out because I already had it on my x280 as one of the three operating systems I was tri-booting: Debian, Arch, and Gentoo. So that gave me the ability to compare evenly.
 
@@ -52,7 +52,7 @@ Now from this data we can pretty confidently say the ram usage of dwm, but the c
 
 The netbook definitely took a hit in the cpu, but interestingly it had the lowest ram usage of any of them. Now, I'd consider anything under 100MB to be pretty usable. Considering the netbook has 2GB of ram, and it is only using ~0.02% for the window manager. I think I can live with that. 
 
-<h3 class="randomcolor blogsubtitle">The Conclusion</h3>
+<h3 class="blogsubtitle">The Conclusion</h3>
 
 So, to conclude my little experiment: I think that dwm is the absolutely perfect window manager on old hardware that is a little long in the tooth and needs every advantage it can get---which is pretty much the conclusion I was expecting to come to. However, what I didn't see coming is that I actually really have enjoyed dwm on my thinkpad as well. To the point that I nuked my Debian and Arch partitions, combined them, installed a new Gentoo partition using [OpenRC], and have installed only dwm on it for any graphical display. 
 
@@ -61,29 +61,9 @@ In my last post, I raved about niri and dismissed dwm; yet here I am raving abou
 
 <!--links-->
 [Samsung NF210]: https://www.trustedreviews.com/reviews/samsung-nf210
-{:class="randomcolor" target="_blank"}
-<!--_-->
-
 [Thinkpad x280]: https://www.lenovo.com/ca/en/p/laptops/thinkpad/thinkpadx/thinkpad-x280/22tp2tx2800
-{:class="randomcolor" target="_blank"}
-<!--_-->
-
 [Arch]: https://archlinux.org/
-{:class="randomcolor" target="_blank"}
-<!--_-->
-
 [htop]: https://github.com/htop-dev/htop
-{:class="randomcolor" target="_blank"}
-<!--_-->
-
 [st]: https://st.suckless.org/
-{:class="randomcolor" target="_blank"}
-<!--_-->
-
 [Gentoo]: https://www.gentoo.org/
-{:class="randomcolor" target="_blank"}
-<!--_-->
-
 [OpenRC]: https://wiki.gentoo.org/wiki/OpenRC
-{:class="randomcolor" target="_blank"}
-<!--_-->

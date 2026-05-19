@@ -18,21 +18,21 @@ I have been using Linux for over a decade now. I got started when I worked for a
 
 <!--more-->
 
-At first I went basic. Pretty sure I just started with Ubuntu, which at the time would have been something close to [12.04](https://old-releases.ubuntu.com/releases/12.04/){:class="randomcolor" target="_blank"}<!--_-->, which used Gnome as its dekstop environment.  
+At first I went basic. Pretty sure I just started with Ubuntu, which at the time would have been something close to [12.04](https://old-releases.ubuntu.com/releases/12.04/), which used Gnome as its dekstop environment.  
 
-I very quickly fell in love, and very quickly fell deeply into the Linux ecosystem. It wasn't long before I started experimenting. Distro hopping endlessly, and of course customizing endlessly as well. Eventually I started to ditch the heavy desktop environments when I discovered [i3wm](https://i3wm.org/){:class="randomcolor" target="_blank"}<!--_-->. I thought I had found the end all be all of graphical computing.  
+I very quickly fell in love, and very quickly fell deeply into the Linux ecosystem. It wasn't long before I started experimenting. Distro hopping endlessly, and of course customizing endlessly as well. Eventually I started to ditch the heavy desktop environments when I discovered [i3wm](https://i3wm.org/). I thought I had found the end all be all of graphical computing.  
 
 I'm not gonna lie. I used a very lightly customized i3wm for probably longer than I should have. That was my main setup for the majority of my time on linux. Probably at least 7 or 8 years. Then, for whatever reason a few years ago I decided to broaden my horizons, and went searching for new and wonderful alternatives, of which there are many.  
 
-I've tried: [i3wm](https://i3wm.org/){:class="randomcolor" target="_blank"}<!--_-->, [dwm](https://dwm.suckless.org/){:class="randomcolor" target="_blank"}<!--_-->, [awesomewm](https://awesomewm.org/){:class="randomcolor" target="_blank"}<!--_-->, [sway](https://swaywm.org/){:class="randomcolor" target="_blank"}<!--_-->, [hyprland](https://hypr.land/){:class="randomcolor" target="_blank"}<!--_-->, [niri](https://niri-wm.github.io/niri/){:class="randomcolor" target="_blank"}<!--_-->, maybe more I can't remember... 
+I've tried: [i3wm](https://i3wm.org/), [dwm](https://dwm.suckless.org/), [awesomewm](https://awesomewm.org/), [sway](https://swaywm.org/), [hyprland](https://hypr.land/), [niri](https://niri-wm.github.io/niri/), maybe more I can't remember... 
 
-As I previously stated, I loved i3wm, and have used it extensively. The next one I settled on after that was awesomewm. That became my new favorite, and I have spent a ton of time with it and have my rc.lua configured pretty much to my liking. ([dotfiles](https://github.com/unclassedpenguin/dotfiles.git){:class="randomcolor" target="_blank"}<!--_--> plug...)  
+As I previously stated, I loved i3wm, and have used it extensively. The next one I settled on after that was awesomewm. That became my new favorite, and I have spent a ton of time with it and have my rc.lua configured pretty much to my liking. ([dotfiles](https://github.com/unclassedpenguin/dotfiles.git) plug...)  
 
 If I need to use x11 these days, it's gonna be awesome. 
 
 I haven't really given dwm a fair shot, so stay tuned I might be trying it more in the future.  
 
-Speaking of x11...I have pretty much moved away from it onto [wayland](https://wayland.freedesktop.org/){:class="randomcolor" target="_blank"}<!--_-->. Of course, loving i3, I tried Sway, which I really do like, but for someone like me who used i3 for so long, it just feels too familiar and I have been ready for change, so I rarely stick with it for too long.  
+Speaking of x11...I have pretty much moved away from it onto [wayland](https://wayland.freedesktop.org/). Of course, loving i3, I tried Sway, which I really do like, but for someone like me who used i3 for so long, it just feels too familiar and I have been ready for change, so I rarely stick with it for too long.  
 
 You can't look into wayland compositors without running across Hyprland. So that was my next logical choice.  
 
@@ -50,8 +50,8 @@ Also, I set up my config once, and have yet to have a single option break. Now t
 
 So maybe there will be a place for Hyprland in my future, but for now, I am pretty sure I will be sticking to Niri. 
 
-[Here](https://github.com/UnclassedPenguin/dotfiles/blob/master/niri/config.kdl){:class="randomcolor" target="_blank"}<!--_--> is a link if you'd like to check out my Niri config. Its fairly simple, not a ton of changes. I have it set up to use both Rofi and Fuzzel, and I changed some of the movement to match what I like from vim keybindings, such as going to the workspace below by using mod+j, which Niri provides the really nice option "focus-window-or-workspace-down". So that if you have windows in a column, it moves down the column first, but once you reach the bottom it will push you to the workspace below. Also, in Niri (and pretty much every other wm) I tend to change the keybindings to match what I learned with i3wm. Ctrl-shift-e to exit. Ctrl-Shift-q to close applications. It has just become so engrained in my muscle memory I don't want to learn other key combos.  
+[Here](https://github.com/UnclassedPenguin/dotfiles/blob/master/niri/config.kdl) is a link if you'd like to check out my Niri config. Its fairly simple, not a ton of changes. I have it set up to use both Rofi and Fuzzel, and I changed some of the movement to match what I like from vim keybindings, such as going to the workspace below by using mod+j, which Niri provides the really nice option "focus-window-or-workspace-down". So that if you have windows in a column, it moves down the column first, but once you reach the bottom it will push you to the workspace below. Also, in Niri (and pretty much every other wm) I tend to change the keybindings to match what I learned with i3wm. Ctrl-shift-e to exit. Ctrl-Shift-q to close applications. It has just become so engrained in my muscle memory I don't want to learn other key combos.  
 
 Overall, I am just super happy with Niri and definitely see myself using it for the forseeable future. :)  
 
-Go give them a star on [github](https://github.com/niri-wm/niri){:class="randomcolor" target="_blank"}<!--_--> to show them some love. 
+Go give them a star on [github](https://github.com/niri-wm/niri) to show them some love. 

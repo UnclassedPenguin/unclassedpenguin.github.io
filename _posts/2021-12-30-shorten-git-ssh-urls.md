@@ -7,7 +7,7 @@ date: 2021-12-30
 categories: Git
 ---
 
-I set up my [VPS](https://m.do.co/c/d028c143320b){:target="_blank" class="randomcolor"}<!--_--> to act as a remote [Git](https://git-scm.com/){:target="_blank" class="randomcolor"}<!--_--> repository so that I can store things on there as well as on [GitHub](https://github.com){:target="_blank" class="randomcolor"}<!--_-->. In doing so I realised though that the URL can get a bit unruly. When I wanted to add a remote to one of my local repositories I had to use:<!--more-->
+I set up my [VPS](https://m.do.co/c/d028c143320b) to act as a remote [Git](https://git-scm.com/) repository so that I can store things on there as well as on [GitHub](https://github.com). In doing so I realised though that the URL can get a bit unruly. When I wanted to add a remote to one of my local repositories I had to use:<!--more-->
 {% highlight shell %}
 $ git remote add remotename ssh://user@10.10.10.10:8910/path/to/your/git/repo.git
 {% endhighlight %}
@@ -41,4 +41,4 @@ $ git remote add remotename yourserver://repo.git
 {% endhighlight %}
 Quite a bit easier, eh?  
 
-[Discussion](https://github.com/UnclassedPenguin/UnclassedPenguin/discussions/5){:target="_blank" class="randomcolor"}
+[Discussion](https://github.com/UnclassedPenguin/UnclassedPenguin/discussions/5)

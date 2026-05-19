@@ -13,7 +13,7 @@ photoFromURL: https://unclassed.ca/about
 ---
 
 
-I have recently switched to [AwesomeWM](https://awesomewm.org){:class="randomcolor" target="_blank"}<!--_--> after using [i3wm](https://i3wm.org){:class="randomcolor" target="_blank"}<!--_--> for quite awhile. I was just bored mainly, and wanted to give it a go. After a month or two on it I have to say I am quite fond of it. I like the amount of configuration. Although it has taken a bit to get used to using lua as the configuration language. One thing I missed from i3wm though was the scratchpad. So I spent a few hours trying to figure it out, I'll let ya know what I came up with.  
+I have recently switched to [AwesomeWM](https://awesomewm.org) after using [i3wm](https://i3wm.org) for quite awhile. I was just bored mainly, and wanted to give it a go. After a month or two on it I have to say I am quite fond of it. I like the amount of configuration. Although it has taken a bit to get used to using lua as the configuration language. One thing I missed from i3wm though was the scratchpad. So I spent a few hours trying to figure it out, I'll let ya know what I came up with.  
 <!--more-->
 
 First things first, this isn't quite as powerful as i3wm's scratchpad. The only thing I ever really used the scratchpad for was to put a terminal in the background, so that's all I aimed to do in awesome. I don't need to be able to put *any* window into scratchpad. I just like having quick access to a terminal where I can have a program open such as my music (using cmus), and have the ability to quickly pull it up (to change a song or such) and then hide it again.  
@@ -26,7 +26,7 @@ I used ai to help me come up with this solution, and after awhile of poking and 
 2. The rules for that window
 3. A key combination to toggle the window
 
-<h3 class="randomcolor blogsubtitle">The Function</h3>
+<h3 class="blogsubtitle">The Function</h3>
 The first part we need to create is a function that handles the three possible scenarios there can be for a scratchpad.    
 
 1. The terminal is visible, in which case it should be hidden.
@@ -70,11 +70,11 @@ end
 
 {% endhighlight %}
 
-I guess at this point I should mention that my main terminal is [URxvt](https://wiki.archlinux.org/title/Rxvt-unicode){:class="randomcolor" target="_blank"}<!--_-->. The line that launches the terminal is near the end where it says `awful.spawn("urxvt -name scratchpad -geometry 120x35", false)`. The important part here is that it names the window "scratchpad", which makes it identifiable so it can be manipulated by the window manager. In theory, you should be able to do this with other terminals as well, if you can name them. Maybe something like `"gnome-terminal --title='scratchpad'"` for gnome-terminal.  
+I guess at this point I should mention that my main terminal is [URxvt](https://wiki.archlinux.org/title/Rxvt-unicode). The line that launches the terminal is near the end where it says `awful.spawn("urxvt -name scratchpad -geometry 120x35", false)`. The important part here is that it names the window "scratchpad", which makes it identifiable so it can be manipulated by the window manager. In theory, you should be able to do this with other terminals as well, if you can name them. Maybe something like `"gnome-terminal --title='scratchpad'"` for gnome-terminal.  
 
 Another important note to make, is that the same line is also where you can change the default size of the terminal. Just change the numbers after `-geometry`.  
 
-<h3 class="randomcolor blogsubtitle">The Rules</h3>
+<h3 class="blogsubtitle">The Rules</h3>
 
 Now we need to add the rules for this window. It should always show on top, no taskbar, should be a floating window, etc. To do this, search your `rc.lua` for "Rules" And you should find a bit of code that looks like:
 
@@ -121,7 +121,7 @@ awful.rules.rules = {
 
 If you aren't using URxvt like I am, you would need to change the "class". You can use xprop to find out the window class. 
 
-<h3 class="randomcolor blogsubtitle">The Keybinding</h3>
+<h3 class="blogsubtitle">The Keybinding</h3>
 
 All thats left is to add a keybind that can actually activate the scratchpad. Find the section of your rc.lua where your keybinds are, and add:
 
@@ -137,7 +137,7 @@ In this case, I am using modkey+a to toggle the scratchpad, although this is jus
 
 Now you should be able to save the config file, restart awesomewm and use the keybind to launch your scratchpad!  
 
-<h3 class="randomcolor blogsubtitle">Troubleshooting</h3>
+<h3 class="blogsubtitle">Troubleshooting</h3>
 
 I ran into a strange error where the scratchpad terminal was using some of the lines from my terminal config file (`~/.Xresources`), but not others. It was a really strange issue that took me awhile to figure out. What it turned out to be is that I had some of the lines specific to windows that were titled "urxvt", however since the scratchpad had the name "scratchpad" these lines wouldn't apply to that window. This is what those lines looked like:
 
@@ -162,8 +162,8 @@ I needed to change them to look like this:
 
 After that, everything worked fine!  
 
-<h3 class="randomcolor blogsubtitle">Conclusion</h3>
+<h3 class="blogsubtitle">Conclusion</h3>
 
-If you'd like you can check out [my complete dotfiles](https://github.com/unclassedpenguin/dotfiles){:class="randomcolor" target="_blank"}<!--_-->. Or you can look at specifically [my rc.lua](https://github.com/UnclassedPenguin/dotfiles/blob/master/awesome/rc.lua){:class="randomcolor" target="_blank"}<!--_-->.  
+If you'd like you can check out [my complete dotfiles](https://github.com/unclassedpenguin/dotfiles). Or you can look at specifically [my rc.lua](https://github.com/UnclassedPenguin/dotfiles/blob/master/awesome/rc.lua).  
 
 So far I have been really happy with this scratchpad. It has shown a few issues where if you mess around with the windows and fullscreen and maximize and unfullscreen and then try to pull up the scratchpad it doesn't come to the foreground. You can see it coming up in the background, but it wont go on top of other windows. I can usually fix it by swapping to a blank workspace and toggling the scratchpad and making it fullscreen and then unfullscreen it and then it tends to go back to working. Who knows. But, so far, for me it has satisfied my needs of having quick access to a terminal that I can hide and pull up quickly. My music can now happily play away in a hidden terminal.  
