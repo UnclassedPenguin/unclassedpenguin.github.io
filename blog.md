@@ -7,7 +7,7 @@ description: Unclassed Blog
 <ul>
   {%- for post in site.posts -%}
   <li class="blog-list">
-    <h3><a class="post-link randomcolor" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
     <div class="inline-block">
     {{ post.date | date: "%B %-d, %Y" }} 
     -
