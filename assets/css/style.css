@@ -3,8 +3,6 @@ html {
 }
 
 body {
-  /*background: #1a1b26;*/
-  /*color: #c0caf5;*/
   background: #070707;
   color: #f7f7f7;
   font-family: "Fira Code", monospace;
@@ -14,10 +12,12 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
+    color: #f2b085;
     font-weight: normal;
 }
 
 a {
+    color: #85c7f2;
     text-decoration: none;
 }
 
@@ -87,8 +87,6 @@ footer {
 .nav a {
   margin-right: 0.5rem;
   padding: 0.25rem 0.5rem;
-  color: #c0caf5;
-  text-decoration: none;
 }
 
 .blog-list, .project-list {
