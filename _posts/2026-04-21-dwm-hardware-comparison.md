@@ -19,7 +19,7 @@ In my [last post]({% post_url 2026-04-09-lets-talk-wms %}) I was talking about d
 
 Firstly, I have heard that dwm is supposed to be one of the lightest window managers out there, so I decided to test that out by running it on some old and new(er) hardware to see how it compares. 
 
-For the old hardware, I have a [Samsung NF210] which is a netbook from 2010 with an Intel Atom N550 (ooh baby. Dual core, 1.5Ghz *beast*) and an *impressive* 2GB of ram. Now despite my sarcasm, I actually really love this machine. It is a great size (at least for my moderate sized hands), has a decent keyboard on it, and has always had great battery life. (On a side note, if I could have this size machine, with a modern screen---read, smaller bezels---and modern cpu/ram it would be a dream machine.)
+For the old hardware, I have a [Samsung NF210] which is a netbook from 2010 with an Intel Atom N550 (ooh baby. Dual core, 1.5Ghz *beast*) and an *impressive* 2GB of ram. Now despite my sarcasm, I actually really love this machine. It is a great size (at least for my moderate sized hands), has a decent keyboard on it, and has always had great battery life. (On a side note, if I could have this size machine, with a modern screen (read, smaller bezels) and modern cpu/ram it would be a dream machine.)
 
 For the "new" hardware, I am going to be using my [Thinkpad x280], that admittedly isn't all that new being released in 2018, but it has enough power to put it in an entirely different category from the NF210, and is currently my daily driver in 2026.
 
@@ -54,9 +54,9 @@ The netbook definitely took a hit in the cpu, but interestingly it had the lowes
 
 <h3 class="blogsubtitle">The Conclusion</h3>
 
-So, to conclude my little experiment: I think that dwm is the absolutely perfect window manager on old hardware that is a little long in the tooth and needs every advantage it can get---which is pretty much the conclusion I was expecting to come to. However, what I didn't see coming is that I actually really have enjoyed dwm on my thinkpad as well. To the point that I nuked my Debian and Arch partitions, combined them, installed a new Gentoo partition using [OpenRC], and have installed only dwm on it for any graphical display. 
+So, to conclude my little experiment: I think that dwm is the absolutely perfect window manager on old hardware that is a little long in the tooth and needs every advantage it can get, which is pretty much the conclusion I was expecting to come to. However, what I didn't see coming is that I actually really have enjoyed dwm on my thinkpad as well. To the point that I nuked my Debian and Arch partitions, combined them, installed a new Gentoo partition using [OpenRC], and have installed only dwm on it for any graphical display. 
 
-In my last post, I raved about niri and dismissed dwm; yet here I am raving about dwm. I'm going to be leaving it on my main computer to play around with---at least a little while longer. 
+In my last post, I raved about niri and dismissed dwm; yet here I am raving about dwm. I'm going to be leaving it on my main computer to play around with...At least a little while longer. 
 
 
 <!--links-->
